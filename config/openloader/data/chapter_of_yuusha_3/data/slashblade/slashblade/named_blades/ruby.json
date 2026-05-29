@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:quick_step_puncture",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:ruby",
+  "properties": {
+    "attack_base": 31.0,
+    "max_damage": 62,
+    "slash_art": "ak:king"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 13068648,
+    "texture": "slashblade:model/ruby.png"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "sons_of_sins:ether_ashes"
+  },
+  "output": {
+    "item": "sons_of_sins:crystallized_ether"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

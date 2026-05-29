@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:tboen",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "shizuku:unlimited_blade",
+        "refine": 2
+      }
+    },
+    "S": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "A": {
+      "item": "deep_aether:aerglow_blossom"
+    },
+    "C": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "D": {
+      "item": "meetyourfight:mossy_tooth"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "SBS",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

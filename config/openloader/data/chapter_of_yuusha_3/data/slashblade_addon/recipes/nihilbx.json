@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:nihilbx",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "slashblade_addon:crimsoncherry",
+        "refine": 4
+      }
+    },
+    "D": {
+      "item": "moonstone:blood_jelly"
+    },
+    "B": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "S": {
+      "item": "whisperwoods:hirschgeist_skull"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "DSD",
+    "BCB",
+    "DGD"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

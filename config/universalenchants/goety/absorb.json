@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "goety:biting_focus",
+    "goety:feast_focus",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

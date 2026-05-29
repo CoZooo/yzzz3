@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "goety:grapple_focus",
+    "goety:poison_dart_focus",
+    "goety:bouncy_bubble_focus",
+    "goety:steaming_focus",
+    "goety:blizzard_focus",
+    "goety:bolting_focus",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

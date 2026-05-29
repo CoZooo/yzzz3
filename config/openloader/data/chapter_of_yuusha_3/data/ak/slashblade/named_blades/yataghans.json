@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:light_armor_killer",
+      "lvl": 3
+    }
+  ],
+  "name": "ak:yataghans",
+  "properties": {
+    "attack_base": 76.0,
+    "max_damage": 152,
+	"slash_art": "slashblade:sakura_end",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "ak:model/named/yataghans/sange.obj",
+    "summon_sword_color": 15817580,
+    "texture": "ak:model/named/yataghans/blood.png"
+  }
+}

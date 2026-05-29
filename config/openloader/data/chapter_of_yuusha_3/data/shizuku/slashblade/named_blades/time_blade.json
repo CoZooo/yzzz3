@@ -1,0 +1,41 @@
+{
+  "enchantments": [
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:hand_of_thief",
+      "lvl": 1
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:time_blade",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 48,
+    "slash_art": "shizuku:time_slash",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 16776960,
+    "texture": "shizuku:model/shizuku/jin.png"
+  }
+}
+
+

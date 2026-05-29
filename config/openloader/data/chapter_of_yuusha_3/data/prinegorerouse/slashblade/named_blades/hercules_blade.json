@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "celestial_enchantments:magic_blade",
+      "lvl": 3
+    }
+  ],
+  "name": "prinegorerouse:hercules_blade",
+  "properties": {
+    "attack_base": 64.0,
+    "max_damage": 128,
+    "slash_art": "slashblade_addon:fire_spiral",
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/hercules/hercules_blade.obj",
+    "summon_sword_color": -1169920,
+    "texture": "prinegorerouse:model/named/custom/hercules/hercules_blade.png"
+  }
+}

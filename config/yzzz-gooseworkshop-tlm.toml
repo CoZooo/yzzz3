@@ -1,0 +1,5 @@
+
+[maid_archaeology]
+	#Range: 1 ~ 200
+	brush_interval_ticks = 20
+

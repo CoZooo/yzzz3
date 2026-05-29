@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:misfortune_blade",
+      "lvl": 3
+    },
+    {
+      "id": "celestial_enchantments:cluster_awareness",
+      "lvl": 3
+    }
+  ],
+  "name": "ak:dick_wido",
+  "properties": {
+    "attack_base": 64.0,
+    "max_damage": 128,
+    "slash_art": "slashblade_addon:fire_spiral",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/dick_wido/sange.obj",
+    "summon_sword_color": -1169920,
+    "texture": "ak:model/named/dick_wido/blood.png"
+  }
+}

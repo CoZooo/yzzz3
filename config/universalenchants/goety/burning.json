@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "goety:arrow_rain_focus",
+    "goety:burrowing_focus",
+    "goety:ignite_focus",
+    "goety:infernal_tome",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

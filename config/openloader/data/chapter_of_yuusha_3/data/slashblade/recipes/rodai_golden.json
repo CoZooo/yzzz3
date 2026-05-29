@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:rodai_golden",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+	    "name": "slashblade:rodai_diamond",
+        "kill": 100,
+        "refine": 1
+      }
+    },
+    "P": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "S": {
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    "W": {
+      "item": "celestial_core:sakura_sword"
+    },
+    "C": {
+      "item": "yuusha:mutant_cube"
+    }
+  },
+  "pattern": [
+    " CP",
+    " B ",
+    "WS "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

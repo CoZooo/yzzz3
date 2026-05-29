@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:knight_slash",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade:rodai_diamond",
+  "properties": {
+    "attack_base": 26,
+    "max_damage": 52,
+    "slash_art": "ak:immortal"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 5289921,
+    "texture": "slashblade:model/rodai_diamond.png"
+  }
+}

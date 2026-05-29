@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "goety:weakening_focus",
+    "goety:soul_heal_focus",
+    "goety:bouncy_bubble_focus",
+    "goety:quaking_focus",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:sculk_devourer",
+    "goety:sculk_grower",
+    "goety:pulverize_focus",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

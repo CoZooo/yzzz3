@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:aquablaze",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "slashblade:rodai_golden",
+        "refine": 2
+      }
+    },
+    "C": {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "L": {
+      "item": "celestial_artifacts:guardian_eye"
+    },
+    "P": {
+      "item": "immortalers_delight:leisamboo_block"
+    }
+  },
+  "pattern": [
+    "CLC",
+    "GBG",
+    "CPC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

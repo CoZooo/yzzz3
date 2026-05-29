@@ -1,0 +1,39 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:unlimited_blade",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 100,
+        "name": "slashblade_addon:katana",
+        "refine": 1
+      }
+    },
+    "A": {
+      "item": "eidolon:death_essence"
+    },
+    "B": {
+      "item": "shizuku:meow_stone"
+    },
+    "D": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "K": {
+      "item": "yuusha:mutant_cube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "DED",
+    "AKA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
+
+

@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:child",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "celestial_core:light_fragment"
+    },
+    "B": {
+      "item": "celestial_core:midnight_fragment"
+    },
+    "C": {
+      "item": "moonstone:blood_jelly"
+    },
+    "D": {
+      "item": "forbidden_arcanus:sea_prism"
+    },
+    "F": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 300,
+        "name": "slashblade:fox_black",
+        "refine": 3
+      }
+    }
+  },
+  "pattern": [
+    "AFB",
+    "CEC",
+    "BDA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

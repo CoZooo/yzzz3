@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:light_armor_killer",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade:fox_black",
+  "properties": {
+    "attack_base": 68.0,
+    "max_damage": 136,
+    "slash_art": "ak:king_fire",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/sange/sange.obj",
+	"summon_sword_color": 11149590,
+    "texture": "slashblade:model/named/sange/black.png"
+  }
+}

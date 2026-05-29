@@ -1,0 +1,1057 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_4"
+	group: "13D24688CE1CFEDA"
+	icon: {
+		Count: 1
+		id: "hmag:nemesis_blade"
+		tag: {
+			Damage: 0
+			hmag.level: 6b
+		}
+	}
+	id: "720BF9F19E0D3BAB"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 14.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 33.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 15.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 34.5d
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"可附魔背刺10级，背刺时获得巨大伤害加成。"
+				""
+				"&e余烬之心可以制作背刺等附魔书。任务抽奖也能获得满附魔的金刀。"
+				""
+				"&6背刺10级附魔书可用余烬之心制作获得。"
+			]
+			id: "7FEE93A0EC622CA8"
+			rewards: [{
+				id: "7A1E85830AB255F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C23D0F87BDFF63F"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"开局树海化章节任务直接送一把，可以开局用用。"
+				""
+				"&e近战的发展路线，在匠作章节和咒法章节均有涉及。"
+			]
+			id: "4B90ECAB3AB1A80A"
+			rewards: [{
+				id: "0EDBD17F523BFEEA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「落魄剑士」"
+			tasks: [{
+				id: "1683EEC3DD7E5E00"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"符文石板可用于在锻造台制作符文武器。"
+				""
+				"&6各种符文武器可直接在切石机中重置符文之力。"
+			]
+			id: "42414683631FD44D"
+			rewards: [{
+				id: "0DAF5003074DA866"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "016D69A6AF0980D8"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"可用来制作多种简易刀剑武器，建议JEI自行查看可以制作的武器，基本龙前都有着不同等级的武器。"
+				""
+				"&6部分可能用到的简易刀剑武器，如荣缎劈刀、硫磺阔剑、烈风、日炎、噩兆等。"
+				""
+				"&e硫磺阔剑的附加爆炸伤害、烈风的附加效果伤害、日炎和噩兆的战旗技能，都能很好地破适应。"
+				""
+				"&c大部分简易刀剑武器，都属于剑类，可以享受九剑归一诀的加成。"
+			]
+			id: "3D7B259CA8DDF429"
+			rewards: [{
+				id: "44A7F30BFF650121"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "765B64595B334F92"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["也许会用到。"]
+			id: "1070A4B1CA140D39"
+			rewards: [{
+				id: "5EAFAC048AF91F17"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EC4054E4DDE9783"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"近战的加伤饰品，可以直接看礼装章节的近战类和全伤类饰品，基本用到的都在里面。"
+				""
+				"&6狂野爪、古代戒指、古代吊坠饰品可以增加玩家的基础攻速，部分武器或者部分维度可能会用到。"
+			]
+			id: "01146DB59F67C389"
+			rewards: [{
+				id: "1D3706B8FF36DD56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "299DC99136A3AD31"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["也许会用到。"]
+			id: "0A9444740B72A825"
+			rewards: [{
+				id: "3210048590A5277B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AA9144E553BF812"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7FEE93A0EC622CA8"]
+			description: [
+				"也许会用到。"
+				""
+				"&6击杀帝王云鲸可以制作一把自带背刺附魔的娜迦毒牙匕首，详见天顶巨兽章节帝王云鲸任务。"
+				""
+				"&c在按照咒法章节的奥秘全典任务解锁邪术学研究后，可以看到有背刺10级附魔的娜迦毒牙匕首的专署合成表。"
+			]
+			id: "587B3F532CA3D19E"
+			rewards: [{
+				id: "566A45EC980C960C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C49798945D8A681"
+				item: {
+					Count: 1
+					id: "mowziesmobs:naga_fang_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"在锻造台中可制作，属于无属性打击类型攻击，可能击杀某些Boss需要。"
+				""
+				"&6拳套、护手类都属于无属性、打击类型伤害。"
+				""
+				"&e拳击手套可以在锻造台中升级。"
+			]
+			id: "17E7EAC5E64EAECE"
+			rewards: [{
+				id: "4136E229C20ED615"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DE746AA8ECDD1D8"
+				item: {
+					Count: 1
+					id: "gauntlets:quick_netherite_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["也许会用到。"]
+			id: "4D116A07FCF5C4A9"
+			rewards: [{
+				id: "4CD162544B96344A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4B2E2EEE7810C634"
+					item: {
+						Count: 1
+						id: "goety:dark_metal_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D8DB7588E2DEE11"
+					item: {
+						Count: 1
+						id: "goety:death_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["也许会用到。"]
+			id: "19CE5D1E667A5F74"
+			rewards: [{
+				id: "04FFFA61784C005A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09ACB4355121201E"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F5025E5F4D9CE73"]
+			description: ["除了属于神属性、勇者类型伤害外，平平无奇。"]
+			id: "5AD967E08827C512"
+			rewards: [{
+				id: "695A8E17A0FE5E26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4888F1B1B73A0EFC"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"也许会用到。对大部分Boss都有加伤。此外对训练假人也有。"
+				""
+				"&6无止之言现在能上死神祝福附魔（仅附魔台）。"
+				""
+				"&c兼容神化模组的词缀系统和宝石，需重铸台改造。不兼容星月词缀模组。"
+				""
+				"&e该武器百分比加伤属于独立乘区，不与其它神秘遗物模组的饰品（如千咒卷轴、血战沙场等）相加计算。"
+			]
+			id: "1152560507E681D7"
+			rewards: [{
+				id: "66D0F9C37383B37F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "698D9384BED4AA94"
+					item: "enigmaticlegacy:the_twist"
+					type: "item"
+				}
+				{
+					id: "44D7A0897B6F8386"
+					item: "enigmaticlegacy:the_infinitum"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"该武器可上「星裂相位」附魔。"
+				""
+				"&e对高护甲生物造成伤害时会提高原伤害，约提升至原伤害的20倍。"
+			]
+			id: "1F7BD35DAB662948"
+			rewards: [{
+				id: "7EF54922F4A8C151"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "198989118BC42E39"
+				item: {
+					Count: 1
+					id: "embers:tyrfing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "7BB9C815E78DC0F2"
+			rewards: [{
+				id: "7AC566B9CECC6BBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D530B5BAA536D32"
+				item: "malum:creative_scythe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["也许会用到。"]
+			id: "2CC6A898238148CA"
+			rewards: [{
+				id: "1840CC7DA2E228B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2CEE20A9233A214D"
+				item: {
+					Count: 1
+					id: "yuusha:forbidden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["步入龙后阶段。"]
+			id: "29373EB5DE45F287"
+			rewards: [{
+				id: "184056A2DE403D30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AC722C6E0C97A24"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["近战攻击为魔法类型攻击，但是不属于魔法伤害。"]
+			id: "2F2556AFA8560716"
+			rewards: [{
+				id: "4281521E214317C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FE4AEF8D140842C"
+				item: {
+					Count: 1
+					id: "refined_mod:flame_tongue_sword"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["符文矛和三叉戟都属于刺击攻击类型，可能用于对付某些生物。"]
+			id: "60D26730834D82C4"
+			rewards: [{
+				id: "09D466EEEA256D6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1932DB888D842E86"
+					item: {
+						Count: 1
+						id: "simplyswords:runic_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04997EAD9009E59B"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F5025E5F4D9CE73"]
+			description: ["也许会用到。"]
+			id: "110B6EA907E8F4B4"
+			rewards: [{
+				id: "6A2553CCA5C74660"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7959543F77A3F01E"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: [
+				"灵灾镰刀右击具有多段伤害："
+				""
+				"第一段为近战攻击附加，享受近战攻击力加成。"
+				""
+				"第二段为镰刀攻击附加，基于魔斯场强，享受魔灵之力、魔能强度加成。"
+				""
+				"特定距离时有第三段为魔斯场强附加，享受魔灵之力、魔能强度加成。"
+				""
+				"以上均不享受近战暴击、近战必杀加成。额外享受镰刀熟练度加成。"
+				""
+				"&6现在魂染钢套、恶念要塞套的属性有所调整。"
+				""
+				"&e不建议用宝藏袋的海上流浪者套装升级，会导致属性丢失，尤其是恶念转化属性。"
+				""
+				"&c灵灾镰刀自身模组的左击横扫已经被禁止，改为使用更好战斗的横扫。"
+				""
+				"&3灵灾模组的镰刀现在能上死神祝福附魔（仅附魔台）。舞刃附魔可在切石机中合成获得。飞腾附魔可在附魔台中获得。回旋附魔需后续用奥术迭代器制作。"
+				"{@pagebreak}"
+				"恶念转化属性，最高不超过100%，会将一定比例的面板属性以一定比例转化为对应属性，以下为具体情况："
+				""
+				"1.100%近战暴击率→100%会心率"
+				""
+				"2.100%近战暴击伤害→100%会心伤害"
+				""
+				"3.100%近战必杀伤害→100%会心伤害"
+				""
+				"4.75%灵魂护盾稳固度→100%镰刀熟练度"
+				""
+				"5.75%灵魂护盾恢复速率→100%魔灵之力"
+				""
+				"6.100%灵魂护盾容量→10%受到治疗"
+				""
+				"7.100%幸运值→100%护甲、50%韧性"
+				""
+				"8.100%铁之咒语的所有法术抗性→50%闪避率"
+				"{@pagebreak}"
+				"灵灾模组的特殊镰刀左击攻击享受大部分近战加成，属于特殊攻击，不会触发反射、部分生物抢夺近战武器。"
+				""
+				"&c无法享受过量治疗效果。会被抑制减伤。"
+				""
+				"&e缚灵附魔和魔斯场强，都能给予镰刀破适应的能力。"
+			]
+			id: "22D765C34F6D8533"
+			rewards: [{
+				id: "0042ED3A4F4DFE8C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "需注意有多页"
+			tasks: [
+				{
+					id: "280C931A4E816ECA"
+					item: {
+						Count: 1
+						id: "malum:crude_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB0E063A2AD3FFD"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07997F2CB765E0B8"
+					item: {
+						Count: 1
+						id: "malum:edge_of_deliverance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CC6A898238148CA"]
+			icon: "yuusha:soul_gem_4"
+			id: "01C4969124E89B23"
+			rewards: [{
+				id: "19B3B55C3A3B4BCE"
+				item: "yuusha:soul_gem_4"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A213EA438C09A9"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "灵魂宝石"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["灾变模组的拳套现在能上死神祝福附魔（仅附魔台）。"]
+			id: "4F5025E5F4D9CE73"
+			rewards: [{
+				id: "1D2A146D18DFB2DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A93F1E177757108"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22D765C34F6D8533"]
+			description: [
+				"灵灾镰刀在前期可使用飞腾附魔，中期解锁回旋附魔。"
+				""
+				"&6坐在板凳上或者船上，或者用方块卡住头顶，可顺利使用飞腾附魔攻击。"
+				""
+				"&e飞腾5级附魔和回旋3级附魔可制作。"
+			]
+			id: "4E375887586650D2"
+			rewards: [{
+				id: "37C60C9DE0D28FD8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3DB2328CB739BFFD"
+					item: "youkaishomecoming:oak_dining_chair"
+					type: "item"
+				}
+				{
+					id: "500E4CA66744DAFE"
+					item: "minecraft:oak_boat"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			id: "7BB89D8AFA029F96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51A79D8BE30B4BAC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77DF939CA9CC1D5D"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: [
+				"适合玩家近战穿的初级盔甲。"
+				""
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
+			]
+			id: "4D2B9D953D3CFBAE"
+			rewards: [{
+				id: "3D15181B8BDC8014"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0599A2979BD46FE9"
+					item: {
+						Count: 1
+						id: "hmag:ancient_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678AA47AFD41A5AF"
+					item: {
+						Count: 1
+						id: "hmag:ancient_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49BD2A720BD3B65D"
+					item: {
+						Count: 1
+						id: "hmag:ancient_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18C051702EC3472B"
+					item: {
+						Count: 1
+						id: "hmag:ancient_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D2B9D953D3CFBAE"]
+			description: [
+				"适合玩家近战穿的中级盔甲。"
+				""
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
+			]
+			id: "160E9EE975894AAA"
+			rewards: [{
+				id: "577105249A0E19C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3F694AB8DF609978"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "746FD1E9E7F3C937"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44952F3E08D8F72F"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213D3B4248E6E256"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["160E9EE975894AAA"]
+			description: [
+				"适合玩家近战穿的高级盔甲。"
+				""
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
+			]
+			id: "6B389DC905B4A685"
+			rewards: [{
+				id: "3AABCEC7BB85B85B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3EEA99BDBD7B6E37"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50ED519E28A0C5F3"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E906B555AF643EC"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "091DF666DD839813"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"79AAC7E0B94BBF31"
+				"29373EB5DE45F287"
+			]
+			description: [
+				"可以使大多数末影生物失去瞬移能力，包括末影处刑者等模组生物。"
+				""
+				"&6配合四叶草等额外获得掉落物的饰品，可以额外获得更多的掉落物。"
+			]
+			id: "1C9F43B20F5C1D71"
+			rewards: [{
+				id: "2DAAE0B893B56CC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DED382ECF368E14"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"79AAC7E0B94BBF31"
+				"7FEE93A0EC622CA8"
+			]
+			description: [
+				"若拥有抢夺附魔，则等级加2；双持2把新硎古刀时伤害增加60%，增加的伤害上限为4点。"
+				""
+				"&6若开启超凡模式，则抢夺附魔的等级改为加4，攻击伤害提高2点，双持时增加的60%伤害无上限。"
+				""
+				"&e该武器可上的附魔与农夫乐事的小刀类似，可上背刺。"
+				""
+				"&c锈蚀古刀、新硎古刀可直接附魔属性附加。"
+				""
+				"&3可用探险家指南针搜索“Ruins With Cherry Tree”找到生生不息的樱花树。"
+			]
+			id: "76D116B251BD7042"
+			rewards: [{
+				id: "12DDA5E373F9A0BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "24F71157298043A6"
+				item: {
+					Count: 1
+					id: "immortalers_delight:ancient_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"79AAC7E0B94BBF31"
+				"3D7B259CA8DDF429"
+			]
+			id: "12A01C98E523FD63"
+			rewards: [{
+				id: "06AA30DA4B445BC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D5FCEC595FBD32A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"79AAC7E0B94BBF31"
+				"4B90ECAB3AB1A80A"
+			]
+			description: ["滑行魔石只能用镐类击杀，只要主手持有镐类，无论是施法还是近战，都能攻击到滑行魔石。"]
+			id: "3E8DE0FFFAE525A6"
+			rewards: [{
+				id: "2EC2EBEDDA999476"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E9467BE09CE2FBF"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			id: "58F5ED8704C79558"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56AEAD0A88651F36"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「易伤」"
+			tasks: [{
+				id: "1EC2E7D25FF49CDC"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+	subtitle: [
+		"&9『近战使用指南』"
+		"强度：★★★★"
+		"时间：★★★★"
+		"难度：★★★"
+	]
+	title: "&6※ 狂人"
+}

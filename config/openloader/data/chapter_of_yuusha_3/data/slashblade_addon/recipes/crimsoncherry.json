@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:crimsoncherry",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "moonstone:blood_jelly"
+    },
+    "E": {
+      "item": "celestial_core:sakura_steel"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 300,
+		"name": "slashblade:fox_white",
+        "refine": 3
+      }
+    },
+    "F": {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "H": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    }
+  },
+  "pattern": [
+    "DGE",
+    "HBH",
+    "EFD"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

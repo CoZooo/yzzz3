@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:pocket_knife",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "B": {
+      "item": "obscure_api:astral_dust"
+    },
+    "C": {
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+    "E": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 300,
+        "name": "ak:yataghans",
+        "refine": 3
+      }
+    }
+  },
+  "pattern": [
+    "ABE",
+    "BCB",
+    "DBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

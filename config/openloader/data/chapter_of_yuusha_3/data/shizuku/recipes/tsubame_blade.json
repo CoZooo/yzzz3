@@ -1,0 +1,42 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:tsubame_blade",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "ak:child",
+        "refine": 4
+      }
+    },
+    "A": {
+      "item": "yuusha:chaos_ingot"
+    },
+    "B": {
+      "item": "shizuku:meow_stone"
+    },
+    "D": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "K": {
+      "item": "callfromthedepth_:soullight"
+    },
+    "F": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "ABF",
+    "DED",
+    "FKA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
+
+

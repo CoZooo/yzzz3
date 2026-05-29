@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:el",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "slashblade_addon:fluorescent_bar",
+        "refine": 2
+      }
+    },
+    "A": {
+      "item": "aether:enchanted_berry"
+    },
+    "B": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "C": {
+      "item": "wizards_reborn:shiny_clover"
+    },
+    "D": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "F": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "AFA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

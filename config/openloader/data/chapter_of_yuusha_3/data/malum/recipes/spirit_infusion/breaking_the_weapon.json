@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "goety:ice_cube"
+    },
+    {
+      "count": 1,
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "item": "malum:soul_stained_steel_plating"
+  },
+  "output": {
+    "item": "malstone:breaking_the_weapon"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 16
+    },
+    {
+      "type": "umbral",
+      "count": 16
+    }
+  ]
+}

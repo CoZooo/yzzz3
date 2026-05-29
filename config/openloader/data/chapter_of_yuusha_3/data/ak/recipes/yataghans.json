@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:yataghans",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "slashblade_addon:wanderer",
+        "refine": 2
+      }
+    },
+    "B": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "item": "celestial_core:sakura_steel"
+    },
+    "D": {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    "E": {
+      "item": "celestial_core:death_essence"
+    }
+  },
+  "pattern": [
+    "DBC",
+    "BAE",
+    "CED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

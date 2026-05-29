@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:tagayasan",
+  "properties": {
+    "attack_base": 18.0,
+    "max_damage": 36,
+    "slash_art": "slashblade:piercing",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+	"summon_sword_color": 11515099,
+    "texture": "slashblade:model/named/tagayasan.png"
+  }
+}

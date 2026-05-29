@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:fierce_slash",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade_addon:kamuy_none",
+  "properties": {
+    "attack_base": 134.0,
+    "max_damage": 268,
+    "slash_art": "shizuku:leisa",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/kamuy/kamuy.obj",
+	"summon_sword_color": 11515099,
+    "texture": "slashblade_addon:model/kamuy/kamuy.png"
+  }
+}

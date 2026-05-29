@@ -1,0 +1,42 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:void_blade",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "ak:pocket_knife",
+        "refine": 4
+      }
+    },
+    "C": {
+      "item": "yuusha:chaos_ingot"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "L": {
+      "item": "callfromthedepth_:soulbell"
+    },
+    "P": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "D": {
+      "item": "apotheosis:infused_breath"
+    }
+  },
+  "pattern": [
+    "DLC",
+    "GEG",
+    "CPD"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
+
+

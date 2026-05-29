@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:knife",
+    "apotheosis:other_tome",
+    "malum:crude_scythe",
+    "malum:soul_stained_steel_scythe",
+    "malum:edge_of_deliverance",
+    "malum:creative_scythe",
+    "enigmaticaddons:quartz_scepter",
+    "slashblade:slashblade"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

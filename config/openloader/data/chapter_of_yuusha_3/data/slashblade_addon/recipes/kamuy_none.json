@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:kamuy_none",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 300,
+        "name": "slashblade_addon:aquablaze",
+        "refine": 3
+      }
+    },
+    "D": {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "I": {
+      "item": "moonstone:blood_jelly"
+    },
+    "N": {
+      "item": "obscure_api:astral_dust"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "IBI",
+    "SDS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

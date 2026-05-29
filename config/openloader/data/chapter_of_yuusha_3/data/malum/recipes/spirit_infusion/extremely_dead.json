@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 16,
+      "item": "malum:twisted_rock"
+    },
+    {
+      "count": 4,
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "meetyourfight:phantoplasm"
+  },
+  "output": {
+    "item": "malstone:extremely_dead"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 32
+    },
+    {
+      "type": "infernal",
+      "count": 16
+    },
+    {
+      "type": "arcane",
+      "count": 16
+    }
+  ]
+}

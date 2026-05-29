@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:kamuy_fire",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "slashblade_addon:kamuy_none",
+        "refine": 4
+      }
+    },
+    "C": {
+      "item": "yuusha:chaos_ingot"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "L": {
+      "item": "callfromthedepth_:soulbell"
+    },
+    "P": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "CLC",
+    "GBG",
+    "CPC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

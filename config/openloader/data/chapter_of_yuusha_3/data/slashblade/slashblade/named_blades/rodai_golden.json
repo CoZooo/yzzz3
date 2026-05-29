@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade:rodai_golden",
+  "properties": {
+    "attack_base": 23.0,
+    "max_damage": 46,
+    "slash_art": "ak:liulifan_city"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 16761358,
+    "texture": "slashblade:model/rodai_golden.png"
+  }
+}

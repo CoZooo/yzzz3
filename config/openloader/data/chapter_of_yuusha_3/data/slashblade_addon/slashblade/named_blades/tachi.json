@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:knight_slash",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade_addon:tachi",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 48,
+    "sword_type": [
+      "none"
+    ],
+    "slash_art": "ak:immortal"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 10196425,
+    "model": "slashblade_addon:model/wa/wa.obj",
+    "texture": "slashblade_addon:model/wa/tachi.png"
+  }
+}

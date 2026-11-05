@@ -215,7 +215,6 @@ craftingTable.addShaped("tacz.gun_smith_table", <item:tacz:gun_smith_table>, [[<
 craftingTable.remove(<item:tacz:statue>);
 craftingTable.addShaped("tacz.statue", <item:tacz:statue>, [[<item:minecraft:air>, <item:minecraft:quartz_slab>, <item:minecraft:air>], [<item:minecraft:quartz_stairs>, <item:yuusha:ember_heart>, <item:minecraft:quartz_stairs>], [<item:minecraft:air>, <item:minecraft:chiseled_quartz_block>, <item:minecraft:air>]]);
 
-/*
 //崩坏能 爆炸
 craftingTable.addShaped("tacz.emxarms.stock_emx_yield", <item:tacz:attachment>.withTag({AttachmentId: "emxarms:stock_emx_yield"}), [[<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>], [<item:nethersdelight:propelpearl>, <item:yuusha:slot_5>, <item:nethersdelight:propelpearl>], [<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>]]);
 
@@ -225,7 +224,7 @@ craftingTable.addShaped("tacz.emxarms.stock_t3_core_2", <item:tacz:attachment>.w
 //
 craftingTable.addShaped("tacz.applied_armorer.muzzle_chip_firefly", <item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firefly"}), [[<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>], [<item:mowziesmobs:glowing_jelly>, <item:yuusha:slot_5>, <item:mowziesmobs:glowing_jelly>], [<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>]]);
 craftingTable.addShaped("tacz.applied_armorer.muzzle_chip_firework", <item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firework"}), [[<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>], [<item:minecraft:firework_star>.anyDamage(), <item:yuusha:slot_5>, <item:minecraft:firework_star>.anyDamage()], [<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>]]);
-*/
+
 
 
 

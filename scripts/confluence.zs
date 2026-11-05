@@ -33,6 +33,8 @@ import mods.jeitweaker.Jei;
 <item:confluence:eye_of_the_golem>.anyDamage().addTooltip("\u00A7e丛林宝箱获取可见匠作章节贸易商人刷怪蛋任务");
 <item:confluence:eye_of_the_golem>.anyDamage().addTooltip("\u00A76该饰品的神化暴击率为全伤害加成");
 <item:confluence:frozen_turtle_shell>.anyDamage().addTooltip("\u00A7c新增击杀冰封蟹有几率获得");
+<item:confluence:frozen_turtle_shell>.anyDamage().addTooltip("\u00A76据说需同时佩戴冰冻护盾和冰冻海龟壳才能生效");
+<item:confluence:frozen_shield>.anyDamage().addTooltip("\u00A76据说需同时佩戴冰冻护盾和冰冻海龟壳才能生效");
 <item:confluence:panic_necklace>.anyDamage().addTooltip("\u00A7c新增击杀冰封蟹有几率获得");
 <item:confluence:paladins_shield>.anyDamage().addTooltip("\u00A7c新增击杀沙漠守卫者有几率获得");
 <item:confluence:shackle>.anyDamage().addTooltip("\u00A7c新增击杀僵尸蛮种有几率获得");

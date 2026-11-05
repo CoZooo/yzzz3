@@ -1,6 +1,8 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:sophisticatedbackpacks:compacting_upgrade>.addTooltip("\u00A76可压制升级口袋饰品并必定增加效果加成");
+<item:sophisticatedbackpacks:advanced_compacting_upgrade>.addTooltip("\u00A76可压制升级口袋饰品并必定增加效果加成");
 <item:sophisticatedbackpacks:pickup_upgrade>.addTooltip("\u00A7e在皮革悬赏内有几率出现");
 <item:sophisticatedbackpacks:deposit_upgrade>.addTooltip("\u00A7e在皮革悬赏内有几率出现");
 <item:sophisticatedbackpacks:upgrade_base>.addTooltip("\u00A7e在皮革悬赏内有几率出现");

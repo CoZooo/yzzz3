@@ -290,7 +290,11 @@
 		}
 		{
 			dependencies: ["2A0E4CB59961B8DB"]
-			description: ["烬铸原液流体可通过余烬模组制作获得，也可在工作台中制作获得该流体桶，详见匠作章节任务。"]
+			description: [
+				"相关内容详见匠作章节任务。"
+				""
+				"{ \"text\": \"点击即可跳转\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6351E7A8D69C8153\" } ,\"color\":\"dark_purple\",\"italic\":\"true\",\"bold\":\"true\"}"
+			]
 			id: "35AE3DEFA0F605CB"
 			rewards: [{
 				id: "4A32FA6BD9DB4290"

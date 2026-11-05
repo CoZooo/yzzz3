@@ -4184,9 +4184,7 @@
 			description: [
 				"会心一击对女仆有效果。"
 				""
-				"&c请勿使用绯红菌丝弓，极其容易导致游戏崩溃。"
-				""
-				"&6嗜血领主宝石：只会失去基础的100%生命值（不计算加成的生命值）。"
+				"&c请勿给女仆的弓安装上嗜血领主宝石，极其容易导致游戏崩溃。"
 				""
 				"&e女仆的基础神化暴击率较低，弓类宝石可以选择神化暴击率+嗜血领主。"
 			]
@@ -4196,33 +4194,17 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "4FC1A3D0A4D0EC7C"
-					item: {
-						Count: 1
-						id: "too_many_bows:crimson_nexus"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4FC1A3D0A4D0EC7C"
+				item: {
+					Count: 1
+					id: "too_many_bows:crimson_nexus"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					id: "3FEB6302DDC6FB69"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:rare"
-							}
-							gem: "apotheosis:the_nether/blood_lord"
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: 32.0d
 			y: -1.5d
 		}

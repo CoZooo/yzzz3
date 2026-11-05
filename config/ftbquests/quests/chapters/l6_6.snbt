@@ -10620,11 +10620,14 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["6D17311DA4F0AB14"]
+			dependencies: [
+				"6D17311DA4F0AB14"
+				"5078EEE4FED07AC5"
+			]
 			description: [
 				"也许这也能叫作“天体洋葱”。"
 				""
-				"&c特性：请先用恶魔之心获得第七个配饰栏位，然后再完成此任务。否则恶魔之心不再生效。"
+				"&c特性：请先用&e恶魔之心&c获得第七个配饰栏位，然后再完成此任务。否则恶魔之心不再生效。"
 			]
 			hide_dependency_lines: false
 			id: "7AAAF825131F4BB9"

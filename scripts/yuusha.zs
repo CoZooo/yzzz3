@@ -31,7 +31,7 @@
 <item:yuusha:chaos_ingot>.addTooltip("\u00A7c击杀无名守卫者可获得");
 <item:yuusha:chaos_ingot>.addTooltip("\u00A7e相关内容详见天顶巨兽章节");
 <item:yuusha:sea_core>.addTooltip("\u00A76击杀斯库拉有较低几率获得");
-<item:yuusha:ice_blood>.addTooltip("\u00A76击杀武神女王、帝王云鲸必定获得");
+<item:yuusha:ice_blood>.addTooltip("\u00A76击杀武神女王、女巫之王必定获得");
 <item:yuusha:shard_1>.addTooltip("\u00A7c· 弹幕伤害击杀妖怪归家模组的首领可获得");
 <item:yuusha:shard_1>.addTooltip("\u00A7e· 弹幕伤害包括女仆御币弹幕和符卡弹幕");
 <item:yuusha:mutant_cube>.addTooltip("\u00A77据说这是鬼的精华被阳光净化后的产物");
@@ -336,6 +336,7 @@ craftingTable.addShapeless("yuusha.iridescent_shadow_gem.copy", <item:yuusha:iri
 //不稳定异界核心
 craftingTable.addShaped("yuusha.unstable_otherside_core", <item:yuusha:unstable_otherside_core>, [[<item:depthcrawler:ancientmechanism>, <item:depthcrawler:otherworldkey>, <item:depthcrawler:ancientmechanism>], [<item:depthcrawler:strangeshard>, <item:depthcrawler:soullessgem>, <item:depthcrawler:strangeshard>], [<item:depthcrawler:ancientmechanism>, <item:depthcrawler:ouroborosnecklace>, <item:depthcrawler:ancientmechanism>]]);
 
+/*
 //优秀
 recipes.addJsonRecipe("yuusha.uncommon_material",{ 
     type:"lychee:item_inside",
@@ -381,6 +382,7 @@ recipes.addJsonRecipe("yuusha.ultimate_material",{
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "yuusha:ultimate_material", count : 1}
 });
+*/
 
 //不稳定红石部件
 craftingTable.addShapeless("yuusha.unstable_redstone_part.1", <item:yuusha:unstable_redstone_part>*2, [<item:yuusha:unstable_redstone_part>, <item:bosses_of_mass_destruction:obsidian_heart>]);

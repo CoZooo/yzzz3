@@ -1,5 +1,6 @@
 import mods.jeitweaker.Jei;
 
+/*
 //永恒奇点
 recipes.addJsonRecipe("avaritia.eternal_singularity",{ 
     type:"lychee:item_inside",
@@ -8,6 +9,7 @@ recipes.addJsonRecipe("avaritia.eternal_singularity",{
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "avaritia:eternal_singularity", count : 1}
 });
+*/
 
 //恒星燃料
 craftingTable.remove(<item:avaritia:star_fuel>);

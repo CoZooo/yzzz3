@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "obscure_api:astral_dust"
+  },
+  "fluid": {
+    "amount": 1000,
+    "name": "embers:dwarven_oil"
+  },
+  "output": {
+    "item": "yuusha:epic_material",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

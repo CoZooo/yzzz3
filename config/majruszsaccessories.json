@@ -152,7 +152,7 @@
           }
         ]
       },
-      "sleeping_drop_chance": 0.25
+      "sleeping_drop_chance": 1.0
     },
     "household_rune": {
       "trading_discount": {

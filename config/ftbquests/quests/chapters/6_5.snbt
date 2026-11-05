@@ -81,7 +81,9 @@
 							AttachmentId: "tacz:ammo_mod_fire_i"
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: -13.5d
@@ -920,7 +922,7 @@
 							AttachmentId: "tacz:ammo_mod_fmj"
 						}
 					}
-					match_nbt: false
+					match_nbt: true
 					only_from_crafting: false
 					type: "item"
 					weak_nbt_match: true
@@ -934,7 +936,9 @@
 							AttachmentId: "tacz:ammo_mod_fire_fmj"
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: -13.5d
@@ -946,7 +950,9 @@
 			description: [
 				"JEI中无法搜索到，但可以制作和使用。"
 				""
-				"&6该配件可装配在大部分枪械的激光指示器栏位，使其发射的子弹产生爆炸效果。"
+				"&6崩坏能转化星核配件可装配在大部分枪械的激光指示器栏位，使其发射的子弹产生爆炸效果。"
+				""
+				"&e烟花超频芯片只能装在特定枪械上，使其射速提高但伤害降低。"
 			]
 			id: "2374E269F485330E"
 			rewards: [{
@@ -954,17 +960,32 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "68EF6D954E8CDACB"
-				item: {
-					Count: 1
-					id: "tacz:attachment"
-					tag: {
-						AttachmentId: "emxarms:stock_emx_yield"
+			tasks: [
+				{
+					id: "68EF6D954E8CDACB"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "emxarms:stock_emx_yield"
+						}
 					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
-				type: "item"
-			}]
+				{
+					id: "4FB558E8EAC0B550"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "applied_armorer:muzzle_chip_firework"
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -13.5d
 			y: -5.5d
 		}
@@ -1073,6 +1094,7 @@
 		}
 		{
 			dependencies: ["46BE421F0A008B57"]
+			dependency_requirement: "one_started"
 			description: [
 				"可用于制作特定枪械。"
 				""

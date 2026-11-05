@@ -64,7 +64,7 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 
 <item:hmag:bat_wing>.addTooltip("\u00A7c击杀蝙蝠可获得，手持血蝠翼右击灵魂营火，可召唤蝙蝠");
 <item:hmag:bat_wing>.addTooltip("\u00A76也可在星河贸易站内交易获得");
-<item:hmag:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
+//<item:hmag:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
 
 //锻造模板
 <item:hmag:evil_crystal_upgrade_smithing_template>.addTooltip("\u00A7c用作在锻造台中进行符文武器刷新符文之力时");

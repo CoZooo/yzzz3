@@ -62,7 +62,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7ADEDC61DC2AF580"]
+			dependencies: ["59134193DC3863BF"]
 			description: [
 				"可以把所有加载范围内的女仆传送至身边。"
 				""
@@ -79,7 +79,7 @@
 				item: "touhou_little_maid:trumpet"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -297,15 +297,13 @@
 			description: [
 				"此任务仅用作检测玩家物品。只有开局任务选择『女仆是勇者』世界线才能开启此任务线。"
 				""
-				"&e女仆路线可以选择近战、法术、枪械、弓箭进行游玩，一般来说只要两个女仆就能通关游戏。但是当然也能缔造女仆军团来通关游戏。"
+				"&e女仆路线可以选择近战、法术、枪械、弓箭进行游玩，一般来说只要两个女仆同一职业就能通关游戏。但是当然也能缔造女仆军团来通关游戏。"
 				""
 				"&6女仆世界线在进入游戏后，不要多次切换进入存档，否则在打开女仆UI时，极易因装备数值反复加载而崩游戏。最好打开一次游戏只进一次。如果要重进，建议大退游戏再进。"
 				""
 				"&3女仆线在前期的发展需要一定的掏狗能力。"
 				""
 				"&c特性：谨慎给女仆灾变武器、简易刀剑等奇怪的模组武器进行攻击，有可能会导致游戏崩溃。"
-				""
-				"&a女仆只会忠于自己的主人，可以攻击其他玩家。"
 			]
 			id: "7BAFF963F479854D"
 			rewards: [{
@@ -646,7 +644,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["48011BF55AA862F1"]
+			dependencies: ["4D6AF12763FA1AA2"]
 			description: [
 				"用污浊的灵魂宝石和净化粉末，在工作台中与特定物品合成，可制作不可破坏的皮革套、钻石剑、木盾牌等。"
 				""
@@ -672,8 +670,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: -3.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["14F5AF9007D14311"]
@@ -959,7 +957,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["459E2781D4F943E0"]
@@ -1304,7 +1302,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48011BF55AA862F1"]
@@ -1691,7 +1689,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["48011BF55AA862F1"]
+			dependencies: ["7ADEDC61DC2AF580"]
 			description: [
 				"女仆专用的盾牌，副手时抗击退。具有多条升级路线。"
 				""
@@ -1718,7 +1716,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -2917,7 +2915,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["59134193DC3863BF"]
+			dependencies: ["48011BF55AA862F1"]
 			description: [
 				"余烬之心可制作横扫之刃等有用的附魔。女仆持有横扫之刃武器可以进行范围攻击。"
 				""
@@ -2939,8 +2937,8 @@
 				type: "item"
 			}]
 			title: "&e近战模式"
-			x: -2.0d
-			y: -1.5d
+			x: -9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4D1FB6A949F56A17"]
@@ -3129,7 +3127,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7ADEDC61DC2AF580"]
+			dependencies: ["59134193DC3863BF"]
 			description: [
 				"可制作获得。可以转移女仆。"
 				""
@@ -3146,11 +3144,11 @@
 				item: "touhou_little_maid:smart_slab_empty"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["4D6AF12763FA1AA2"]
+			dependencies: ["7ADEDC61DC2AF580"]
 			description: [
 				"&e女仆施放铁之咒语法术&r：女仆背包内有任意含有法术卷轴的法术书。手持法杖、穿着法师套装可增加对应法术的伤害。不消耗法力值，但是有冷却时间。"
 				""
@@ -3221,11 +3219,11 @@
 				}
 			]
 			title: "&e法术模式"
-			x: -3.5d
-			y: -1.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7ADEDC61DC2AF580"]
+			dependencies: ["4D6AF12763FA1AA2"]
 			description: [
 				"女仆击杀2星以上的怪物也能获得悲叹之种。"
 				""
@@ -3244,7 +3242,7 @@
 				item: "yuusha:grief_seed"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -3401,7 +3399,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["59134193DC3863BF"]
+			dependencies: ["7ADEDC61DC2AF580"]
 			description: [
 				"女仆射击时的散布是以腰射精度为计算，给枪械加上该配件，能有效提高女仆的枪械准度。"
 				""
@@ -3430,8 +3428,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&e枪械模式"
-			x: -2.0d
-			y: 0.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A99FA150156296B"]
@@ -3520,7 +3518,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4D6AF12763FA1AA2"]
+			dependencies: ["48011BF55AA862F1"]
 			description: [
 				"女仆没有「破空之势」等琳琅满弓模组的属性，使用具有破空之势的弓箭没有增伤，但是会有其附加效果，比如吸血箭破适应。"
 				""
@@ -3556,8 +3554,8 @@
 				type: "item"
 			}]
 			title: "&e弓箭模式"
-			x: -3.5d
-			y: 0.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["691801CC319ECD84"]

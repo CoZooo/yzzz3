@@ -185,6 +185,15 @@
 	#显示 FTB 任务库存扫描按钮
 	#在侧边栏显示一次性扫描存储网络和玩家背包的按钮。
 	enableFtbQuestStorageScanButton = true
+	#启用克苏鲁生物血肉祭坛兼容
+	#支持带数量的材料、批量投料、多祭坛并行、远程界面与递归合成。
+	enableCthulhuCreatures = true
+	#启用直至永恒兼容
+	#支持终末工作台的远程绑定与递归合成。
+	enableUntilEternity = true
+	#启用余烬机器兼容
+	#支持熔炼炉、混合离心器和压印锤的远程合成；流体材料与产物需要 RS 流体存储。
+	enableEmbersMachines = true
 
 #自动合成
 [autoCrafting]
@@ -232,7 +241,7 @@
 	#单次进食数量上限
 	#每次批量进食最多吃掉的食物数量。
 	#Range: 1 ~ 1024
-	maxPerBatch = 128
+	maxPerBatch = 64
 
 #容器传输
 [containerTransfer]
@@ -244,7 +253,7 @@
 [sidePanel]
 	#启用 RS 侧边面板
 	#通过指定按键显示可折叠、拖动的网络物品面板。
-	enableRSSidePanel = true
+	enableRSSidePanel = false
 
 #远程机器
 [remoteMachineGui]

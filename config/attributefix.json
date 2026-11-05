@@ -1698,7 +1698,7 @@
       "enabled": true,
       "min": {
         "default": -1024,
-        "value": 0
+        "value": -10000
       },
       "max": {
         "default": 1024,

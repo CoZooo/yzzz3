@@ -112,7 +112,7 @@
 		multishotArrowUnload = true
 		#魔化箭矢伤害转换百分比
 		#Range: 0.001 ~ 100.0
-		magicalArrowDamage = 0.02
+		magicalArrowDamage = 0.01
 		#魔化箭矢附魔生效上限
 		#Range: 0 ~ 255
 		magicalArrowMax = 5
@@ -242,10 +242,10 @@
 		[coreSettings.CY3_curiosSettings.war_mage_ring]
 			#法力恢复的独立乘区数值
 			#Range: 0.0 ~ 100.0
-			mana_regeneration = 0.25
+			mana_regeneration = 1.0
 			#每点法力能抵抗的伤害值
 			#Range: 0.0 ~ 3.4028234663852886E38
-			damageResistancePerMana = 0.5
+			damageResistancePerMana = 0.1
 
 		#奥数专精
 		[coreSettings.CY3_curiosSettings.arcane_specialty]

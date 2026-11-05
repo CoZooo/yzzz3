@@ -1,6 +1,8 @@
 import crafttweaker.api.recipe.Brewing;
 
 //说明
+<item:minecraft:firework_star>.addTooltip("\u00A76烟火之星可由火药和任意染料合成");
+<item:minecraft:pointed_dripstone>.addTooltip("\u00A76佩戴幸运岩石在主世界挖掘有几率掉落");
 <item:minecraft:sea_pickle>.addTooltip("\u00A76生成在暖水海洋或珊瑚礁的珊瑚块");
 <item:minecraft:drowned_spawn_egg>.addTooltip("\u00A7c手持腐烂鱼肉Shift右击炼狱锻炉可回收为溺尸刷怪蛋");
 <item:minecraft:pufferfish_spawn_egg>.addTooltip("\u00A7c手持河豚片Shift右击炼狱锻炉可回收为河豚刷怪蛋");
@@ -759,6 +761,32 @@ recipes.addJsonRecipe("suspicious_sand.youkai_shomecoming_2",{
     item_in: { item: "youkaishomecoming:dried_mandrake_flower" },
     block_in: "minecraft:sand",
     post:  {  type: "execute",  command: "fill ~ ~ ~ ~ ~ ~ minecraft:suspicious_sand{LootTable:\"yuusha:archaeology/youkai_shomecoming\"} replace minecraft:sand"}
+});
+
+//
+recipes.addJsonRecipe("lychee.minecraft.sand",{ 
+    type: "lychee:dripstone_dripping",
+    source_block: "water",
+    target_block: "minecraft:gravel",
+    post:  {  type: "place",  block: "minecraft:sand"}
+});
+recipes.addJsonRecipe("lychee.minecraft.gravel",{ 
+    type: "lychee:dripstone_dripping",
+    source_block: "water",
+    target_block: "minecraft:cobblestone",
+    post:  {  type: "place",  block: "minecraft:gravel"}
+});
+
+//
+recipes.addJsonRecipe("lychee.minecraft.lava",{ 
+    type: "lychee:block_exploding",
+    block_in: "slashblade_useful_addon:proud_soul_log",
+    post:  {  type: "place",  block: "minecraft:lava"}
+});
+recipes.addJsonRecipe("lychee.minecraft.ice",{ 
+    type: "lychee:block_exploding",
+    block_in: "slashblade_useful_addon:proud_soul_leaves",
+    post:  {  type: "place",  block: "minecraft:ice"}
 });
 
 //

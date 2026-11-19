@@ -26,7 +26,8 @@ import mods.jeitweaker.Jei;
 <item:mowziesmobs:glowing_jelly>.addTooltip("\u00A7e荧光浮灯在黑森林的树林上空生成");
 <item:mowziesmobs:umvuthana_mask_faith>.addTooltip("\u00A76可在切石机中制作生命提升附魔");
 
-<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能、投射物等加成");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7e兼容利箭附魔，不兼容力量附魔");
 <item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7c请勿上穿透引弓附魔！否则会导致游戏崩溃");
 <item:mowziesmobs:sculptor_staff>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
 

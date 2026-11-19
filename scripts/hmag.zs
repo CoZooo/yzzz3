@@ -15,6 +15,7 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 <item:hmag:insomnia_fruit>.anyDamage().addTooltip("\u00A7c携带后会无法睡觉");
 <item:hmag:insomnia_sword>.anyDamage().addTooltip("\u00A7c携带后会无法睡觉");
 
+<item:hmag:bat_stew>.addTooltip("\u00A7e开启贸易商人的各种宝箱有几率获得");
 <item:hmag:cubic_nucleus>.addTooltip("\u00A7e任意生物击杀史莱姆娘都必定掉落一个");
 <item:hmag:evil_crystal_fragment>.addTooltip("\u00A7e考古骨头转化的可疑方块可获得");
 

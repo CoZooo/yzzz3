@@ -206,6 +206,45 @@
 		{
 			"output": 
 			{
+				"item": "minecraft:frogspawn",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:ochre_froglight",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:frogspawn",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:verdant_froglight",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:frogspawn",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:pearlescent_froglight",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
 				"item": "goety:windswept_sapling",
 				"count":1
 			},

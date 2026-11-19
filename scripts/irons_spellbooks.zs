@@ -9,6 +9,7 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:hogskin>.addTooltip("\u00A7c利用疣猪兽粗皮等材料可在召唤祭坛中召唤疣猪兽");
 <item:irons_spellbooks:hogskin>.addTooltip("\u00A7e相关内容详见下界炼狱章节任务");
 
+<item:irons_spellbooks:protection_rune>.addTooltip("\u00A76新增击杀灾厄教父有几率获得");
 <item:irons_spellbooks:scroll_forge>.addTooltip("\u00A76可制作，详见咒法章节");
 <item:irons_spellbooks:scroll_forge>.addTooltip("\u00A7e也可通过牧师悬赏获得");
 <item:irons_spellbooks:inscription_table>.addTooltip("\u00A76可制作，详见咒法章节");

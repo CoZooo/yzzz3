@@ -1541,7 +1541,11 @@
 			y: 24.5d
 		}
 		{
-			dependencies: ["0B1806EC033D3E14"]
+			dependencies: [
+				"0B1806EC033D3E14"
+				"59AC63668E05CCA5"
+			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "04FE7C3C11B0E7C4"
 			rewards: [

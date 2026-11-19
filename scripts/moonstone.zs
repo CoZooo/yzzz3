@@ -317,7 +317,7 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <tag:items:curios:curio>.remove(<item:moonstone:blood_sun>);
 <tag:items:curios:burning_secret>.add(<item:moonstone:blood_sun>);
 <tag:items:curios:curio>.remove(<item:moonstone:blood_candle>);
-<tag:items:curios:magnet>.add(<item:moonstone:blood_candle>);
+<tag:items:curios:burning_secret>.add(<item:moonstone:blood_candle>);
 <tag:items:curios:curio>.remove(<item:moonstone:wind>);
 <tag:items:curios:charm>.add(<item:moonstone:wind>);
 <tag:items:curios:curio>.remove(<item:moonstone:blackeorb>);
@@ -619,8 +619,9 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A75只能通过击杀钢铁守卫者几率获得");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A76混沌战斧的召唤有一定冷却时间");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤为全伤害加成");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c此饰品会导致卡顿！！！！！");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c此饰品会导致卡顿！禁止佩戴");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A72可在切石机中转化为其他深渊遗物饰品");
+<item:moonstone:nightmare_axe>.setMaxStackSize(64);
 
 <item:moonstone:pain_ring>.anyDamage().addTooltip("\u00A7c只能通过击杀异端堕落先知几率获得");
 <item:moonstone:pain_ring>.anyDamage().addTooltip("\u00A76该饰品增加的伤害为全伤害加成");
@@ -801,7 +802,7 @@ craftingTable.remove(<item:moonstone:rage_lock>);
 <tag:items:curios:charm>.remove(<item:moonstone:rage_charm>);
 <tag:items:curios:badge>.add(<item:moonstone:rage_charm>);
 <tag:items:curios:hands>.remove(<item:moonstone:nightmare_axe>);
-<tag:items:curios:nightmare_eye>.add(<item:moonstone:nightmare_axe>);
+//<tag:items:curios:nightmare_eye>.add(<item:moonstone:nightmare_axe>);
 
 //狂暴磁铁
 craftingTable.remove(<item:moonstone:rage_magnet>);
@@ -1133,7 +1134,6 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 craftingTable.addShapeless("moonstone.atp_height.copy", <item:moonstone:atp_height>, [<item:yuusha:grief_crystal>.reuse(), <item:born_in_chaos_v1:magical_holiday_candy>]);
 
 //
-//stoneCutter.addRecipe("moonstone.nightmare_axe_change.1", <item:moonstone:nightmaretreasure>, <item:moonstone:nightmare_axe>);
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.2", <item:moonstone:nightmarestone>, <item:moonstone:nightmare_axe>);
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.3", <item:moonstone:nightmaremoai>, <item:moonstone:nightmare_axe>);
 

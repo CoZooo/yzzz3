@@ -1,4 +1,6 @@
 //说明
+<item:eidolon:raw_lead>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
+<item:eidolon:raw_silver>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
 <item:eidolon:shadow_gem>.addTooltip("\u00A7e可通过幻之坩埚制作获得");
 <item:eidolon:shadow_gem>.addTooltip("\u00A7c新增击杀孤魂尸鬼有小几率获得");
 <item:eidolon:crimson_gem>.addTooltip("\u00A7e可通过幻之坩埚制作获得");

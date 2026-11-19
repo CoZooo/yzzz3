@@ -14,13 +14,13 @@
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
           "weight": 30,
-          "quality": 1
+          "quality": 0
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
           "weight": 5,
-          "quality": 2,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",

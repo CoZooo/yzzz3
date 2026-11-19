@@ -24,13 +24,13 @@
           "type": "minecraft:item",
           "name": "minecraft:quartz",
           "weight": 36,
-          "quality": 1
+          "quality": 0
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
           "weight": 4,
-          "quality": 2
+          "quality": 0
         }
       ]
     }

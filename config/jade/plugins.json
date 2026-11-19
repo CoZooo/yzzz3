@@ -85,6 +85,9 @@
     "ench": true,
     "spawner": true
   },
+  "rs_integration": {
+    "witch_cauldron": true
+  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true

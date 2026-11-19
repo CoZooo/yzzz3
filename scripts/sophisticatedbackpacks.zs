@@ -92,7 +92,8 @@ craftingTable.addShaped("sophisticatedbackpacks.xp_pump_upgrade", <item:sophisti
 craftingTable.addShapeless("sophisticatedbackpacks.rs_pickup_upgrade", <item:sophisticatedbackpacks:rs_pickup_upgrade>, [<item:sophisticatedbackpacks:advanced_pickup_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
 craftingTable.addShapeless("sophisticatedbackpacks.rs_magnet_upgrade", <item:sophisticatedbackpacks:rs_magnet_upgrade>, [<item:sophisticatedbackpacks:advanced_magnet_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
 
-
+//
+craftingTable.remove(<item:sophisticatedbackpacks:compacting_upgrade>);
 
 
 

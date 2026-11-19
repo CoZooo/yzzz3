@@ -2456,29 +2456,17 @@
 		}
 		{
 			dependencies: ["33CC518E16045DD8"]
-			description: [
-				"可能某些远古巫术法术有用。"
-				""
-				"&6法师克星宝石镶嵌在胸甲时可增加远古巫术强度。"
-			]
 			id: "21BD1B35153D517E"
 			rewards: [{
 				id: "0ACBB9F827490845"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "25D59B279CE58E23"
-					item: "irons_spellbooks:eldritch_manuscript"
-					type: "item"
-				}
-				{
-					id: "4C4C5FD629AEFF15"
-					item: "cataclysm:cursium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C4C5FD629AEFF15"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
 			x: 51.5d
 			y: -3.0d
 		}
@@ -2630,7 +2618,11 @@
 		}
 		{
 			dependencies: ["1F57C17272FD162B"]
-			description: ["也许有用。"]
+			description: [
+				"可能某些远古巫术法术有用。"
+				""
+				"&6法师克星宝石镶嵌在胸甲时可增加远古巫术强度。"
+			]
 			id: "696D2B0AF9526DCD"
 			rewards: [{
 				id: "2FC5C1B39942A2D2"
@@ -2639,13 +2631,7 @@
 			}]
 			tasks: [{
 				id: "29308DC4E27155A0"
-				item: {
-					Count: 1
-					id: "tacz:attachment"
-					tag: {
-						AttachmentId: "tacz:ammo_mod_he"
-					}
-				}
+				item: "irons_spellbooks:eldritch_manuscript"
 				match_nbt: true
 				type: "item"
 				weak_nbt_match: true

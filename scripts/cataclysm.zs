@@ -13,6 +13,7 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:gauntlet_of_bulwark>.addTooltip("\u00A7c该武器渲染存在特性，可以尝试开关光影");
 <item:cataclysm:strange_key>.addTooltip("\u00A7c击杀冥行武弁可获得");
 <item:cataclysm:void_lantern_block>.addTooltip("\u00A76在末影守卫的废弃堡垒建筑内可以找到");
+<item:cataclysm:void_lantern_block>.addTooltip("\u00A7e新增击杀末影傀儡必定获得");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A76可制作获得，相关内容详见上层世界章节");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A7c击杀利维坦会返还召唤物");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A7e渊灵术士、珊瑚巨像均可召唤");
@@ -72,8 +73,10 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:aptrgangr_head>.addTooltip("\u00A76相关内容详见极尽深渊章节");
 <item:cataclysm:draugr_head>.addTooltip("\u00A7c在苦寒监牢可找到");
 <item:cataclysm:draugr_head>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7c击杀珊瑚傀儡可获得");
-<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋类生物群系中稀有地自然生成珊瑚傀儡");
+<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7c击杀珊瑚傀儡可获得晶化珊瑚碎片");
+<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋生物群系稀有自然生成珊瑚傀儡");
+<item:cataclysm:crystallized_coral>.addTooltip("\u00A7c击杀珊瑚傀儡可获得晶化珊瑚碎片");
+<item:cataclysm:crystallized_coral>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋生物群系稀有自然生成珊瑚傀儡");
 <item:cataclysm:coral_chunk>.addTooltip("\u00A7c击杀珊瑚巨像可获得，在沉没之城内可以找到");
 <item:cataclysm:coral_chunk>.addTooltip("\u00A7e利用珊瑚残片右击深渊祭坛，可召唤珊瑚巨像");
 <item:cataclysm:athame>.addTooltip("\u00A7c击杀渊灵术士、渊灵祭司可获得，在沉没之城内可以找到");
@@ -299,7 +302,7 @@ recipes.addJsonRecipe("summon.cataclysm.coralssus",{
     type:"lychee:block_interacting",
     item_in: { item: "crabbersdelight:coral_fragments" },
     block_in: "cataclysm:altar_of_abyss",
-    post:  {  type: "execute",  command: "summon cataclysm:coralssus"}
+    post:  {  type: "execute",  command: "summon cataclysm:coralssus ~ ~10 ~"}
 });
 
 //召唤渊灵术士
@@ -307,7 +310,7 @@ recipes.addJsonRecipe("summon.cataclysm.deepling_warlock",{
     type:"lychee:block_interacting",
     item_in: { item: "eidolon:oanna_bloom" },
     block_in: "cataclysm:altar_of_abyss",
-    post:  {  type: "execute",  command: "summon cataclysm:deepling_warlock"}
+    post:  {  type: "execute",  command: "summon cataclysm:deepling_warlock ~ ~10 ~"}
 });
 
 //tag

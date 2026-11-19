@@ -1,4 +1,5 @@
 //说明
+<item:yuusha:summon_warden>.addTooltip("\u00A76若在召唤祭坛召唤则会直接消失");
 <item:yuusha:ling_shi_2>.addTooltip("\u00A7c击杀萨菲拉有几率获得");
 <item:yuusha:chaos_star>.addTooltip("\u00A7c击杀下界铁掌可获得");
 <item:yuusha:chaos_star>.addTooltip("\u00A76相关内容详见下界炼狱章节");
@@ -158,6 +159,7 @@
 <item:yuusha:knowledge_fragment>.addTooltip("\u00A7e右击天空之城奖杯、长者雕像可分别获得战斗、魔力技能点");
 <item:yuusha:knowledge_fragment>.addTooltip("\u00A7c请确保你已先用神秘龙蛋开启战斗、魔力技能树，否则会无法起效");
 <item:yuusha:knowledge_fragment>.addTooltip("\u00A76相关内容详见末路之地章节任务");
+<item:yuusha:knowledge_fragment>.addTooltip("\u00A72特定空岛任务线可制作获得");
 
 <item:yuusha:emper_core>.addTooltip("\u00A76可制作获得，相关内容详见大满开章节任务");
 
@@ -171,6 +173,7 @@
 <item:yuusha:aerwhale_king_lard>.addTooltip("\u00A7e击杀帝王云鲸必定获得");
 
 <item:yuusha:ink_soul>.addTooltip("\u00A7c在墨魂神殿内击杀任意墨怪可获得");
+<item:yuusha:ink_soul>.addTooltip("\u00A7e在其它地方击杀任意墨怪也有几率获得");
 <item:yuusha:ink_soul>.addTooltip("\u00A76相关内容详见古遗天境章节任务");
 <item:yuusha:ink_sacrifice>.addTooltip("\u00A76可制作获得，相关内容详见古遗天境章节任务");
 <item:yuusha:ink_sacrifice>.addTooltip("\u00A7c手持墨魂祭品右击泰坦墨怪头颅可召唤远古墨魂化身");
@@ -189,17 +192,18 @@
 
 <item:yuusha:white_star>.addTooltip("\u00A7e可制作获得，右击奇异藤花可召唤渊眼苍龙");
 <item:yuusha:white_star>.addTooltip("\u00A7c在击杀渊眼苍龙后会返还");
-//<item:yuusha:white_star>.addTooltip("\u00A7e不要同时召唤多个，可能会连锁触发雷击导致游戏崩溃");
 <item:yuusha:iridescent_shadow_gem>.addTooltip("\u00A76右击奇异藤花可召唤渊兽领主");
 <item:yuusha:iridescent_shadow_gem>.addTooltip("\u00A7c击杀后会返还，但建议用合成复制留档，以防雷击销毁物品");
 <item:yuusha:iridescent_shadow_gem>.addTooltip("\u00A7e不要同时召唤多个，可能会连锁触发雷击导致游戏崩溃");
 <item:yuusha:yuusha_medal>.addTooltip("\u00A76完成天顶巨兽章节的神性挑战系列任务获得");
 
-<item:yuusha:dragon_heart>.addTooltip("\u00A7c只有在最终极之涡维度击杀异想体303号才可获得");
+<item:yuusha:dragon_heart>.addTooltip("\u00A7c在最终极之涡维度击杀异想体303号必定获得");
+<item:yuusha:dragon_heart>.addTooltip("\u00A76在其它维度击杀异想体303号有几率获得");
 <item:yuusha:dragon_heart>.addTooltip("\u00A7e可在星河贸易站内交易获得镶孔符石");
 <item:yuusha:ink_heart>.addTooltip("\u00A7c只能通过在墨魂神殿区域内击杀远古墨魂化身获得");
 <item:yuusha:ink_heart>.addTooltip("\u00A76相关获取内容详见古遗天境章节任务");
 <item:yuusha:ink_heart>.addTooltip("\u00A7e可在礼装章节任务兑换获得一个「星月-心」栏位");
+<item:yuusha:ink_heart>.addTooltip("\u00A73在其它地方击杀远古墨魂化身也有几率获得");
 <item:yuusha:blood_bone_heart>.addTooltip("\u00A7c只能通过击杀化石鱼获得");
 
 <item:yuusha:sin_shard_1>.addTooltip("\u00A7c击杀七宗罪化身可获得");
@@ -716,7 +720,8 @@ stoneCutter.addRecipe("yuusha.chaos_fly.11", <item:yuusha:chaos_fly>, <item:arka
 <item:yuusha:chaos_charm>.addTooltip("\u00A7c击杀巨型迷离之眼可获得");
 <item:yuusha:chaos_charm>.addTooltip("\u00A76相关内容详见极尽深渊章节");
 
-<item:yuusha:double_soul>.addTooltip("\u00A7c只有在幽匿暗域维度击杀灾厄魂灵才可获得");
+<item:yuusha:double_soul>.addTooltip("\u00A7c在幽匿暗域维度击杀灾厄魂灵必定获得");
+<item:yuusha:double_soul>.addTooltip("\u00A76在其它维度击杀灾厄魂灵有几率获得");
 
 <item:yuusha:burn_core>.addTooltip("\u00A7c击杀异化红石巨兽可获得");
 <item:yuusha:burn_core>.addTooltip("\u00A76相关内容详见遥远世界章节");

@@ -5,7 +5,7 @@
     "item": "irons_spellbooks:rare_ink"
   },
   "craftType": "magic",
-  "soulCost": 4000,
+  "soulCost": 8000,
   "duration": 5,
   "research": "warred",
   "ingredients": [

@@ -1,6 +1,8 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:embers:raw_lead>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
+<item:embers:raw_silver>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
 <item:embers:archaic_brick>.addTooltip("\u00A76击杀天境维度的太古魔像可获得");
 <item:embers:ashen_fabric>.addTooltip("\u00A76新增在余烬悬赏内有几率出现");
 <item:embers:isolated_materia>.addTooltip("\u00A7c可以通过余烬炼金台制作获得");

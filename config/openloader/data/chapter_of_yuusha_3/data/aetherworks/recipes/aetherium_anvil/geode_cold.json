@@ -35,6 +35,11 @@
     {
       "chance": 10.0,
       "count": 2,
+      "item": "aether:icestone"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
       "item": "minecraft:raw_iron_block"
     },
     {

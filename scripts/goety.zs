@@ -1,7 +1,7 @@
 import mods.jeitweaker.Jei;
 
 //说明
-<item:goety:reaper_spawn_egg>.addTooltip("\u00A76玩家击杀收割者有小几率生成");
+<item:goety:reaper_spawn_egg>.addTooltip("\u00A76玩家击杀幻翼有小几率生成");
 <item:goety:wraith_spawn_egg>.addTooltip("\u00A76玩家击杀死灵法师有几率生成");
 <item:goety:border_wraith_spawn_egg>.addTooltip("\u00A76玩家击杀流髑死灵法师有几率生成");
 <item:goety:necromancer_spawn_egg>.addTooltip("\u00A76在要塞内会较高几率自然生成");

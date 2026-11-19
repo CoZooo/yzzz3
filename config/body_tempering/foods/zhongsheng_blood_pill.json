@@ -1,12 +1,14 @@
 {
   "_comment_zh": [
-    "众生血丹 · 全属性锻体池配置 | foodId = zhongsheng_blood_pill",
+    "气血丹 · 全属性锻体池配置 | foodId = zhongsheng_blood_pill",
     "普通/稀有/完美品质从玩家实际拥有的全部属性中随机抽取；本文件控制本食品的数值、权重与禁用项。",
     "本文件缺失时自动生成；首次生成会从旧主配置 body_tempering.json 的 foods 段迁移 weights / extra_draw_chance。",
     "字段说明：",
     "  rarity_weights: 普通/稀有/完美三档权重（非负，按比例归一化；总和<=0 时回退 0.60/0.30/0.10）。",
     "  extra_draw_chance: 额外再抽一次的概率 0~1（额外抽取不包含红色/仙品）。",
-    "  config_version: 配置结构版本（当前 2；旧版文件会自动按加法语义升级一次）。",
+    "  max_uses: 使用次数上限（4.0.0 新增；-1 = 无限；气血丹/龙鳞果默认 10，巫神血默认 -1）。",
+    "  tribulation_failure_chance: 渡劫失败概率 0~1（4.3.0 新增；默认 0.01 = 1%；失败时本次锻体抽取的属性将转为负面加成）。",
+    "  config_version: 配置结构版本（当前 4；旧版文件会自动按加法语义升级并补全 max_uses / tribulation_failure_chance）。",
     "  default_operation: 未单独配置的属性的默认运算，3.2.0 起默认 multiply_base（乘法区，百分比）；",
     "                    addition（加法）/ multiply_base（乘法区）/ multiply_total（独立乘区）三选一。",
     "  default_values: 三档稀有度的默认数值上限（乘法区时为百分比，如 0.05 = +5%；属性未在 attribute_values 单独配置时使用）。",
@@ -19,16 +21,18 @@
     "                    旧版本残留的 body_tempering_tacz:fire_rate / magazine_capacity / headshot_damage 与",
     "                    tacz:tacz.bullet_resistance 四个键读取时会被跳过并自动从本文件删除。",
     "  disabled_attributes: 本食品额外禁用的属性 ID 列表（全局黑名单在主配置 all_attributes.blacklist）。",
-    "属性 ID 查询：config/attributefix.json，或服务器内执行 /temper attributes。",
+    "属性 ID 查询：config/attributefix.json。",
     "以 _ 开头的键为注释，读取时忽略；修改后需重启游戏（服务器）生效。"
   ],
-  "config_version": 2,
+  "config_version": 4,
   "rarity_weights": {
     "normal": 0.6,
     "rare": 0.3,
     "perfect": 0.1
   },
   "extra_draw_chance": 0.0,
+  "max_uses": -1,
+  "tribulation_failure_chance": 0.05,
   "default_operation": "multiply_base",
   "default_values": {
     "normal": 0.02,

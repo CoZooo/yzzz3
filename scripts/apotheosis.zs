@@ -190,6 +190,15 @@ recipes.addJsonRecipe("apotheosis.uncommon_material.void",{
     post:  {  type: "drop_item",  item: "apotheosis:uncommon_material", count : 1}
 });
 
+//
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.1", <item:artifacts:night_vision_goggles>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.2", <item:moonstone:ectoplasmsoul>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.3", <item:grimoireofgaia:ring_of_night>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.1", <item:confluence:shiny_red_balloon>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.2", <item:artifacts:cloud_in_a_bottle>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.3", <item:confluence:cloud_in_a_bottle>, [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+
 
 
 

@@ -177,7 +177,7 @@
       "player": true
     },
     "conditions": {
-      "random": 0.1
+      "random": 0.02
     },
     "spawn": {
       "mob": "goety:reaper",

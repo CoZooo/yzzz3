@@ -7519,11 +7519,18 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "0D34091C6F307B1B"
-				item: "celestial_artifacts:thunder_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0D34091C6F307B1B"
+					item: "celestial_artifacts:thunder_ring"
+					type: "item"
+				}
+				{
+					id: "0C2B575F4DCBDB1C"
+					item: "chapter_of_yuusha_3_core:insulation"
+					type: "item"
+				}
+			]
 			x: -25.5d
 			y: -28.5d
 		}
@@ -9069,6 +9076,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["饰品的加成数值描述有误，实际为100+血战加成/4，其为全伤害加成，但非近战伤害仅享受一半的加成。"]
 			id: "465E3AF53C61663F"
 			rewards: [{
 				exclude_from_claim_all: true

@@ -54,15 +54,15 @@
 		{
 			"entities": [
                 {
-                    "entity": "goety:apostle",
-					"count": 1
-                },
-                {
                     "entity": "faded_conquest_2:vessel_of_calamity",
 					"count": 1
                 },
                 {
                     "entity": "faded_conquest_2:radiance_guardian",
+					"count": 1
+                },
+                {
+                    "entity": "goety:apostle",
 					"count": 1
                 }
 			],
@@ -575,7 +575,7 @@
 					}
 				}
 			],
-			"max_wave_time": 500,
+			"max_wave_time": 600,
 			"setup_time": 60
 		},
 		{

@@ -150,7 +150,7 @@ craftingTable.addShapeless("enigmaticaddons.etherium_core.copy", <item:enigmatic
 <item:enigmaticaddons:antique_bag>.addTooltip("\u00A7c新增击杀末影守卫有几率获得");
 <item:enigmaticaddons:antique_bag>.addTooltip("\u00A7e该物品所提供的增伤为全伤害加成，且为独立乘区");
 <item:enigmaticaddons:antique_bag>.addTooltip("\u00A76放入多个相同物品不会重复生效，详细说明见礼装章节");
-<item:enigmaticaddons:hell_blade_charm>.addTooltip("\u00A76该饰品的增伤为近战伤害+全伤害加成，与其它神秘遗物饰品相加计算");
+<item:enigmaticaddons:hell_blade_charm>.addTooltip("\u00A76该饰品增伤为近战伤害+全伤害加成，不与其它神秘遗物饰品相加计算");
 <item:enigmaticaddons:hell_blade_charm>.addTooltip("\u00A7e在赫菲斯托斯锻炉中合成时需«诅咒契约»作为增强遗物");
 <item:enigmaticaddons:etherium_core>.addTooltip("\u00A7e在赫菲斯托斯锻炉中合成时需«神圣契约»作为增强遗物");
 <item:enigmaticaddons:hell_blade_charm>.addTooltip("\u00A7c多人游戏时存在特性JEI无法完全显示合成表");

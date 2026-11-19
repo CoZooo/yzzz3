@@ -145,10 +145,12 @@
 <item:yuusha:focus_5_none>.addTooltip("\u00A7c在「无赎」章节提交任务后才可开启后续任务");
 <item:yuusha:focus_6_sword>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_6_sword>.addTooltip("\u00A7c在「星落」章节提交任务后才可开启后续任务");
+<item:yuusha:focus_6_sword>.addTooltip("\u00A7e在「魔爆」章节有另外的隐藏路线可选");
 <item:yuusha:focus_7>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_8>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_9>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_9>.addTooltip("\u00A7c在「唤灵」章节提交任务后才可开启后续任务");
+<item:yuusha:focus_9>.addTooltip("\u00A7e在「领航员」章节有另外的隐藏路线可选");
 
 <item:yuusha:fake_knowledge_book>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:fake_knowledge_book>.addTooltip("\u00A7c只能通过任务奖励获取");

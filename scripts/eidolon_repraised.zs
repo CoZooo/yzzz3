@@ -10,6 +10,7 @@
 <item:eidolon:arcane_gold_nugget>.addTooltip("\u00A7c新增击杀沉没之城里的生物可获得魔金粒");
 <item:eidolon:arcane_gold_nugget>.addTooltip("\u00A7e魔金粒的掉落数量会基于上述生物血量");
 <item:eidolon:withered_heart>.addTooltip("\u00A7c击杀凋灵可获得凋零心脏");
+<item:eidolon:withered_heart>.addTooltip("\u00A76用凋零伤害击杀僵尸蛮种也可获得");
 //<item:eidolon:withered_heart>.addTooltip("\u00A7e属于腐败食物，可配合可厌聚集戒指");
 <item:eidolon:illwood_sapling>.addTooltip("\u00A76灾厄树苗在主世界的黑森林等生物群系可以找到");
 <item:eidolon:warded_mail>.anyDamage().addTooltip("\u00A76实际将魔法类伤害转化为物理伤害");

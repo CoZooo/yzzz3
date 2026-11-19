@@ -47,7 +47,7 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A7c紫水晶巨蟹可用虚空百合等材料召唤");
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
 
-<item:cataclysm:void_core>.addTooltip("\u00A7c击杀末影傀儡可获得");
+<item:cataclysm:void_core>.addTooltip("\u00A7c击杀末影傀儡可获得，可用于召唤末影傀儡");
 <item:cataclysm:void_core>.addTooltip("\u00A76相关内容详见末路之地章节");
 <item:cataclysm:void_jaw>.addTooltip("\u00A7c击杀末影甲虫可获得");
 <item:cataclysm:void_jaw>.addTooltip("\u00A76相关内容详见末路之地章节");

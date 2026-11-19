@@ -36,6 +36,12 @@ recipes.addJsonRecipe("minecraft.sand.sky",{
     target_block: "minecraft:gravel",
     post:  {  type: "place",  block: "minecraft:sand"}
 });
+recipes.addJsonRecipe("minecraft.grass_block.sky",{ 
+    type: "lychee:dripstone_dripping",
+    source_block: "water",
+    target_block: "minecraft:dirt",
+    post:  {  type: "place",  block: "minecraft:grass_block"}
+});
 recipes.addJsonRecipe("minecraft.gravel.sky",{ 
     type: "lychee:dripstone_dripping",
     source_block: "water",
@@ -228,6 +234,18 @@ recipes.addJsonRecipe("summon.grimoireofgaia.nine_tails.sky",{
     item_in: { item: "celestial_core:sakura_fragment" },
     block_in: "grimoireofgaia:doll_nine_tails",
     post:  {  type: "execute",  command: "summon grimoireofgaia:nine_tails ~ ~3 ~"}
+});
+recipes.addJsonRecipe("summon.grimoireofgaia.harpy.sky",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "celestial_core:sakura_fragment" },
+    block_in: "grimoireofgaia:deco_nest_harpy",
+    post:  {  type: "execute",  command: "summon grimoireofgaia:harpy ~ ~3 ~"}
+});
+recipes.addJsonRecipe("summon.hmag.banshee.sky",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "forbidden_arcanus:corrupti_dust" },
+    block_in: "grimoireofgaia:deco_nest_harpy",
+    post:  {  type: "execute",  command: "summon hmag:banshee ~ ~3 ~"}
 });
 
 //

@@ -10,6 +10,7 @@
 <tag:items:diet:proteins>.add(<item:grimoireofgaia:withered_brain>);
 
 //玩偶
+stoneCutter.addRecipe("grimoireofgaia.deco_nest_harpy", <item:grimoireofgaia:deco_nest_harpy>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.bust_gorgon", <item:grimoireofgaia:bust_gorgon>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.bust_minotaur", <item:grimoireofgaia:bust_minotaur>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.doll_creeper_girl", <item:grimoireofgaia:doll_creeper_girl>, <item:malum:poppet>);
@@ -32,6 +33,9 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:giga_gear>.setMaxStackSize(64);
 
 //说明
+<item:grimoireofgaia:shaman_spawn_egg>.addTooltip("\u00A76在夜晚高度大于60的丛林生物群系自然生成");
+<item:grimoireofgaia:witch_spawn_egg>.addTooltip("\u00A76来末地的神化Boss有几率生成");
+<item:grimoireofgaia:anubis_spawn_egg>.addTooltip("\u00A76来无回之都的神化Boss有几率生成");
 <item:grimoireofgaia:book_of_memory>.addTooltip("\u00A7e可在切石机中制作附魔");
 <item:grimoireofgaia:withered_brain>.addTooltip("\u00A76击杀狱火暗域领主灵颅可获得");
 <item:grimoireofgaia:heavy_barbell>.addTooltip("\u00A76最多可同时佩戴三个");
@@ -82,9 +86,15 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:premium_monster_feed>.addTooltip("\u00A7c虚伪宝箱怪刷怪蛋在星河贸易站可交易获得");
 <item:grimoireofgaia:mandrake>.addTooltip("\u00A7c用锹类击杀青花或者曼陀罗草有较高几率获得");
 
+<item:grimoireofgaia:mummy_spawn_egg>.addTooltip("\u00A76在沙漠生物群系夜晚常见生成");
+<item:grimoireofgaia:mummy_spawn_egg>.addTooltip("\u00A7c玩家杀死斯芬克斯时有几率召唤木乃伊");
+<item:grimoireofgaia:gryphon_spawn_egg>.addTooltip("\u00A76在高山生物群系常见生成");
+<item:grimoireofgaia:deathword_spawn_egg>.addTooltip("\u00A76可用禁书碎片等材料在召唤祭坛召唤");
 <item:grimoireofgaia:arachne_spawn_egg>.addTooltip("\u00A76阿拉克涅在夜晚时生成于高度小于32的地下");
 <item:grimoireofgaia:sphinx_spawn_egg>.addTooltip("\u00A76斯芬克斯在夜晚时生成于高度大于60的沙漠");
+<item:grimoireofgaia:sphinx_spawn_egg>.addTooltip("\u00A7c玩家杀死木乃伊时有几率召唤斯芬克斯");
 <item:grimoireofgaia:banshee_spawn_egg>.addTooltip("\u00A76女鬼在夜晚时生成于高度大于60的位置");
+<item:grimoireofgaia:banshee_spawn_egg>.addTooltip("\u00A7e玩家击杀死神有小几率生成");
 <item:grimoireofgaia:bee_spawn_egg>.addTooltip("\u00A76杀人蜂在白昼时生成于高度大于60的森林");
 <item:grimoireofgaia:mermaid_spawn_egg>.addTooltip("\u00A76人鱼战士在夜晚时生成于高度小于60的深海");
 <item:grimoireofgaia:sharko_spawn_egg>.addTooltip("\u00A76鲨鱼战士在夜晚时生成于高度小于32的深海");

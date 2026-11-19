@@ -451,7 +451,7 @@
 			"type": "gateways:stack",
 			"stack": {
 				"item": "yuusha:unstable_glowstone_part",
-				"count": 3
+				"count": 4
 			}
 		},
 		{

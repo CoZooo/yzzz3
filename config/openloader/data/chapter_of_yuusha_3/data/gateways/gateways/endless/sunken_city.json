@@ -57,7 +57,7 @@
             "application_mode": {
                 "type": "gateways:after_every_n_waves",
                 "waves": 2,
-                "max": 10
+                "max": 20
             },
             "modifiers": [{
                 "attribute": "generic.attack_damage",
@@ -65,7 +65,7 @@
                 "value": 0.1
             }],
             "max_wave_time": -200,
-            "setup_time": -10
+            "setup_time": -5
         }
     ],
     "failures": [

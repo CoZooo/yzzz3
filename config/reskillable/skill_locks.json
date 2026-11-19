@@ -193,6 +193,7 @@
 	"enigmaticlegacy:cursed_stone": ["magic:70"],
 	"enigmaticlegacy:avarice_scroll": ["magic:20"],
 	"enigmaticlegacy:enigmatic_amulet": ["magic:5"],
+	"touhou_little_maid:smart_slab_init": ["magic:10"],
 	"tacz:gun_smith_table": ["attack:20"],
 	"tacz:workbench_a": ["attack:20"],
 	"tacz:workbench_b": ["attack:20"],

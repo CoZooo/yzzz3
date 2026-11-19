@@ -1,6 +1,7 @@
 import crafttweaker.api.block.Block;
 
 //说明
+<item:aether_redux:grand_victory_medal>.anyDamage().addTooltip("\u00A76放在物品栏内也可重玩女武神的战斗");
 <item:aether:freezer>.addTooltip("\u00A76需冰石作为燃料");
 <item:aether:quicksoil>.addTooltip("\u00A76可在天境特定生物群系找到");
 <item:ancient_aether:valkyrie_clay_ball>.addTooltip("\u00A76可在天境特定生物群系找到白金粘土块，湖泊处居多");

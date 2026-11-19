@@ -36,7 +36,7 @@
 				"count": 1
 			}
         }],
-        "max_wave_time": 300,
+        "max_wave_time": 600,
         "setup_time": 20
     },
     "modifiers": [

@@ -1,6 +1,10 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:goety:reaper_spawn_egg>.addTooltip("\u00A76玩家击杀收割者有小几率生成");
+<item:goety:wraith_spawn_egg>.addTooltip("\u00A76玩家击杀死灵法师有几率生成");
+<item:goety:border_wraith_spawn_egg>.addTooltip("\u00A76玩家击杀流髑死灵法师有几率生成");
+<item:goety:necromancer_spawn_egg>.addTooltip("\u00A76在要塞内会较高几率自然生成");
 <item:goety:philosophers_stone>.anyDamage().addTooltip("\u00A76只有特定空岛任务线才能获得");
 <item:goety:end_soil>.addTooltip("\u00A76可通过秘术粉转化获得");
 <item:goety:chorus_sapling>.addTooltip("\u00A7c在2×2格末地壤上种植紫颂树苗会长成巨大的紫颂树");
@@ -18,8 +22,10 @@ import mods.jeitweaker.Jei;
 <item:goety:feline_amulet>.addTooltip("\u00A77装备后使玩家拥有猫一样的特性");
 <item:goety:refuse_bottle>.addTooltip("\u00A77在女巫坩埚酿造药水失败时，装入玻璃瓶可获得");
 <item:goety:venomous_fang>.addTooltip("\u00A76击杀各种蜘蛛生物有几率获得");
-<item:goety:grave_dust>.addTooltip("\u00A76新增击杀缠魂甲胄可获得");
+<item:goety:grave_dust>.addTooltip("\u00A76击杀收割者、死灵法师、流髑死灵法师几率获得");
+<item:goety:grave_dust>.addTooltip("\u00A7e新增击杀缠魂甲胄可获得");
 <item:goety:grave_dust>.addTooltip("\u00A7c无法通过掘墓者之铲获得");
+<item:goety:grave_dust>.addTooltip("\u00A73可用于召唤食尸鬼和亡魂");
 <item:goety:haunting_scroll>.addTooltip("\u00A7e新增击杀骷髅领主有几率获得");
 
 <item:goety:animation_core>.addTooltip("\u00A7e可击杀巫师小几率获得，特定世界线也可制作获得");

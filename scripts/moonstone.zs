@@ -57,7 +57,7 @@ Jei.hideIngredient(<item:moonstone:nightmare_base_insight_collapse>);
 
 Jei.hideIngredient(<item:moonstone:end_bone>);
 <item:moonstone:end_bone>.anyDamage().addTooltip("\u00A7c无法使用或获取");
-<item:moonstone:raw>.anyDamage().addTooltip("\u00A7c无法使用或获取");
+//<item:moonstone:raw>.anyDamage().addTooltip("\u00A7c无法使用或获取");
 
 <tag:items:curios:necora>.remove(<item:moonstone:batgene>);
 <tag:items:curios:satan_contract>.add(<item:moonstone:batgene>);
@@ -743,6 +743,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:nightmare_base_redemption_deception>.anyDamage().addTooltip("\u00A7c谨慎佩戴！可能会导致怪物脱战快速回满血");
 <item:moonstone:nightmare_base_fool_bone>.anyDamage().addTooltip("\u00A76该饰品貌似只增加近战伤害");
 <item:moonstone:nightmare_base_fool_bone>.anyDamage().addTooltip("\u00A7e只能通过击杀死尸术士、腐化英雄几率获得");
+<item:moonstone:nightmare_base_fool_bone>.anyDamage().addTooltip("\u00A7c存在特性！加伤无法生效");
 <item:moonstone:nightmare_base_insight_insane>.anyDamage().addTooltip("\u00A7c只能通过击杀末日巫妖-灵魂收割者几率获得");
 <item:moonstone:nightmare_base_insight_insane>.anyDamage().addTooltip("\u00A7e不会抢掉埋伏性狩猎的加伤");
 <item:moonstone:nightmare_base_insight_drug>.anyDamage().addTooltip("\u00A7c击杀凋灵有几率获得");
@@ -1008,7 +1009,7 @@ craftingTable.addShapeless("moonstone.magicstone.re", <item:moonstone:magicstone
 <tag:items:curios:west>.add(<item:moonstone:evilcandle>);
 
 <tag:items:curios:curio>.remove(<item:moonstone:raw>);
-<tag:items:curios:curio>.add(<item:moonstone:raw>);
+<tag:items:curios:god_hand>.add(<item:moonstone:raw>);
 
 <tag:items:curios:hands>.remove(<item:moonstone:magnet>);
 <tag:items:curios:magnet>.add(<item:moonstone:magnet>);

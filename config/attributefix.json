@@ -2516,7 +2516,7 @@
       },
       "max": {
         "default": 2,
-        "value": 1.9
+        "value": 2
       }
     },
     "attributeslib:dodge_chance": {

@@ -548,10 +548,10 @@
      >
 
     # The damage modifier per every level of damage enchantments. Measured as percentage. [range: 10 ~ 32768, default: 15, synchronized: yes]
-    I:DecisionofAnnihilationDamageEnchantmentPerModifier=5
+    I:DecisionofAnnihilationDamageEnchantmentPerModifier=10
 
     # The damage multiplier per every level of energy. Measured as percentage. [range: 10 ~ 32768, default: 20, synchronized: yes]
-    I:DecisionofAnnihilationEnergyMultiplier=20
+    I:DecisionofAnnihilationEnergyMultiplier=10
 
     # The damage modifier when offhand is empty. Measured as percentage. [range: 100 ~ 32768, default: 100, synchronized: yes]
     I:DecisionofAnnihilationOnlyMainHandModifier=100

@@ -968,7 +968,7 @@
 				""
 				"&3在FTB任务界面点击提交时，可以直接从RS网络扣除缺少的物品；缺少的物品会进入JEI收藏"
 				""
-				"增加一键整理next兼容，可在自动补货时从 RS 补齐材料。"
+				"&2增加一键整理next兼容，可在自动补货时从 RS 补齐材料。"
 			]
 			icon: "ftbquests:task_screen_configurator"
 			id: "58AA530032716582"

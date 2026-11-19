@@ -42,15 +42,39 @@
 			description: [
 				"开局送的其它物品，最好留着以供匠作章节的转转回收任务，以获得精致存储。"
 				""
-				"&c谨记先用FTB圈地，以防出现意外。贤者之石只有64点耐久，在没有永恒陨星之前请注意耐久。"
+				"&c谨记先用FTB圈地，以防出现意外。"
 				""
 				"&6/skyblock spawn 可回到出生点。"
 				""
-				"&e大部分维度均会由于灵墟等级归零限制而无法进入。基本只有永夜空境、主世界、下界、末地、遥远世界可进入。"
+				"&e大部分维度均会由于灵墟等级归零限制而无法进入。基本只有永夜空境、主世界、下界、末地、遥远世界、异界沙漠、永昼空境可进入。"
 				""
 				"&3不建议普通玩家选择此路线。需要发展大量科技，为科技包玩家特供路线。"
 				""
-				"&2现在贤者之石用于工作台合成时，大部分合成表均不会消耗耐久。"
+				"&2基本除了魔女殉葬路线无法在空岛毕业外，其余职业应该都能毕业。"
+				"{@pagebreak}"
+				"空岛队伍相关指令，多人时创建队伍即为新空岛："
+				""
+				"&6创建队伍&r：/skyblock create <队名> <玩家>"
+				""
+				"&6邀请玩家&r：/skyblock invite <玩家>"
+				""
+				"&6接受邀请&r：/skyblock accept <队名>"
+				""
+				"&6拒绝邀请&r：/skyblock decline <队名>"
+				""
+				"&6加入队伍&r：/skyblock join <队名>"
+				""
+				"&6接受加入&r：/skyblock team accept <玩家>"
+				""
+				"&6拒绝加入&r：/skyblock team deny <玩家>"
+				""
+				"&6访问队伍&r：/skyblock visit <队名>"
+				""
+				"&6访问权限&r：/skyblock team allowVisits <true/false>"
+				""
+				"&6修改队名&r：/skyblock team <新队名> <原队名>"
+				""
+				"&6离开队伍&r：/skyblock leave"
 			]
 			id: "7839FE7663B8C86B"
 			invisible: true
@@ -1194,11 +1218,7 @@
 		}
 		{
 			dependencies: ["2CA839C4639BCD46"]
-			description: [
-				"可利用滴水石锥嬗变获得雪块。"
-				""
-				"&6需注意雪傀儡需寒冷群系才会产雪。"
-			]
+			description: ["可利用滴水石锥嬗变获得雪块。"]
 			id: "0710EEDCE2566DC3"
 			rewards: [{
 				id: "18EA8BE2FD183651"
@@ -1396,7 +1416,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0D719BCA1D45C1C0"]
+			dependencies: ["60E3ADA6F94D2EF9"]
 			description: ["击杀太阳鸟的召唤生物可获得羽毛。"]
 			id: "231A0426D5F9F234"
 			rewards: [{
@@ -1409,8 +1429,8 @@
 				item: "minecraft:feather"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0D719BCA1D45C1C0"]
@@ -1482,7 +1502,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -1539,7 +1559,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["066103B2A29A0B0D"]
@@ -1572,7 +1592,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1E1ABE65A71B9E5A"]
@@ -1996,7 +2016,7 @@
 			}]
 			title: "残缺的哭泣之井"
 			x: -1.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1AAFFF82909FB1BD"]
@@ -2012,7 +2032,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["019FF5AB99AC347F"]
@@ -2142,7 +2162,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["019FF5AB99AC347F"]
@@ -2243,6 +2263,7 @@
 		}
 		{
 			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["远古金属粒可在召唤祭坛中召唤骸龙等生物。"]
 			id: "505E8C99BA815823"
 			rewards: [{
 				count: 2
@@ -2283,6 +2304,7 @@
 		}
 		{
 			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["{ \"text\": \"女武神的召唤详见链接\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A6DBF8176FC7C8B\" } ,\"color\":\"yellow\",\"italic\":\"false\",\"bold\":\"false\"}"]
 			id: "4002D737711EACCE"
 			rewards: [{
 				count: 2
@@ -2532,7 +2554,11 @@
 		}
 		{
 			dependencies: ["30F97248BA430CD5"]
-			description: ["酸液可制作。"]
+			description: [
+				"酸液可制作。制作所需的流体无法直接放入机器内。"
+				""
+				"&6必须用共振存储来制作。"
+			]
 			id: "4E7E65B05A6FBCA7"
 			rewards: [{
 				id: "56120014EE144889"
@@ -2640,7 +2666,7 @@
 		}
 		{
 			dependencies: ["30F97248BA430CD5"]
-			description: ["可制作，可用于召唤死者之王。"]
+			description: ["可制作。"]
 			id: "2D125D2A3D4D3227"
 			rewards: [{
 				id: "1E3A5E0A43AA713E"
@@ -2723,7 +2749,7 @@
 		{
 			dependencies: ["019FF5AB99AC347F"]
 			description: [
-				"在永夜空境可用余烬采矿机开采深渊之卵，也可获得各种晶球。"
+				"在永夜空境可用余烬采矿机开采精湛水晶块，也可获得各种晶球。"
 				""
 				"{ \"text\": \"点击链接查看祭坛任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7110CDF77E6CD905\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"
 			]
@@ -2824,7 +2850,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -2924,7 +2950,7 @@
 		}
 		{
 			dependencies: ["4281692FA707C37B"]
-			description: ["可制作自然宝藏袋。"]
+			description: ["可制作发酵蛆，然后获得自然宝藏袋。"]
 			id: "33EDF01D62E97358"
 			rewards: [{
 				id: "03266322F1B027EF"

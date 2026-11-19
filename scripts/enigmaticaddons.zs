@@ -8,6 +8,12 @@ import mods.jeitweaker.Jei;
 <tag:items:curios:ring>.remove(<item:enigmaticaddons:avarice_ring>);
 <tag:items:curios:god_hand>.add(<item:enigmaticaddons:avarice_ring>);
 
+//
+<item:enigmaticaddons:dragon_bow>.anyDamage().addTooltip("\u00A7c· 箭矢和药水云均享受力量附魔等箭类加成");
+<item:enigmaticaddons:dragon_bow>.anyDamage().addTooltip("\u00A7e· 药水云还额外享受魔法类伤害加成");
+<item:enigmaticaddons:dragon_bow>.anyDamage().addTooltip("\u00A75· 药水云具有极高的伤害但容易被免疫");
+<item:enigmaticaddons:dragon_bow>.anyDamage().addTooltip("\u00A76· 可上无限附魔不消耗普通箭矢发射");
+
 //权杖
 craftingTable.remove(<item:enigmaticaddons:quartz_scepter>);
 craftingTable.addShaped("enigmaticaddons.quartz_scepter", <item:enigmaticaddons:quartz_scepter>, [[<item:minecraft:air>, <item:minecraft:quartz>, <item:yuusha:aja_blue_stone>], [<item:too_many_bows:power_crystal>, <item:reliquary:void_tear>, <item:minecraft:quartz>], [<item:aether:skyroot_stick>, <item:too_many_bows:power_crystal> , <item:minecraft:air>]]);

@@ -55,6 +55,13 @@
       "spawns": "default",
       "surroundingBlocks": "default",
       "spreads": "default"
+    },
+    {
+      "name": "fish",
+      "file": "fish.nbt",
+      "spawns": "default",
+      "surroundingBlocks": "default",
+      "spreads": "default"
     }
   ]
 }

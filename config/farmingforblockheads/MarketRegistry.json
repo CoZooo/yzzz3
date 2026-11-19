@@ -466,19 +466,6 @@
 		{
 			"output": 
 			{
-				"item": "aquaculture:neptunium_bow",
-				"count":1
-			},
-			"payment": 
-			{
-				"item": "aquaculture:neptunes_bounty",
-				"count":64
-			},
-			"category": "yuusha_other"
-		},
-		{
-			"output": 
-			{
 				"item": "hmag:savagefang_meat",
 				"count":4
 			},

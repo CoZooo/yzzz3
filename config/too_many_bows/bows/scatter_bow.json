@@ -1,6 +1,6 @@
 {
-  "base_damage": 1.0,
-  "use_ranged_damage_attribute": false,
+  "base_damage": 5.0,
+  "use_ranged_damage_attribute": true,
   "ranged_damage_attribute_divisor": 11.0,
   "crit_damage_multiplier": 1.5,
   "max_arrows": 8,

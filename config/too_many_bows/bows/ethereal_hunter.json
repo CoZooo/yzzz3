@@ -1,6 +1,6 @@
 {
   "direct_hit_damage_override": 40.0,
-  "no_gravity": false,
+  "no_gravity": true,
   "start_hit_timer_on_entity_hit": true,
   "start_hit_timer_on_block_hit": true,
   "discard_after_hit_delay": true,

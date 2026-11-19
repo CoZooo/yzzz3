@@ -33,7 +33,7 @@
 
 [marauder]
 	#Does this illager take part in village raids.
-	participate_in_raids = true
+	participate_in_raids = false
 
 [invoker]
 	#Show a yellow boss bar when fighting an invoker.

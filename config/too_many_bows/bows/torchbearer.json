@@ -1,5 +1,5 @@
 {
-  "direct_hit_damage": 5.5,
+  "direct_hit_damage": 80,
   "ignite_entities_on_hit": true,
   "entity_fire_ticks": 100,
   "place_torch_on_block_hit": false,
@@ -7,5 +7,5 @@
   "place_wall_torch_on_side_hit": false,
   "require_air_for_wall_torch": true,
   "discard_only_when_action_succeeds": true,
-  "allow_pickup": true
+  "allow_pickup": false
 }

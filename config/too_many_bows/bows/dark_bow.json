@@ -1,8 +1,8 @@
 {
   "no_gravity": true,
-  "max_lifetime_ticks": 60,
+  "max_lifetime_ticks": 80,
   "sonic_damage_enabled": true,
-  "sonic_damage_base": 20.0,
+  "sonic_damage_base": 100000.0,
   "use_ranged_damage_attribute_for_sonic_damage": false,
   "ranged_damage_attribute_namespace": "ranged_weapon",
   "ranged_damage_attribute_path": "damage",

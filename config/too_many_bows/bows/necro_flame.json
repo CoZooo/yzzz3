@@ -1,15 +1,15 @@
 {
-  "direct_hit_damage_override": -1.0,
+  "direct_hit_damage_override": 50.0,
   "set_target_on_fire": false,
   "fire_ticks_on_hit": 200,
-  "bonus_fire_damage_enabled": false,
-  "base_fire_damage": 4.0,
-  "use_ranged_damage_attribute_for_fire_damage": false,
+  "bonus_fire_damage_enabled": true,
+  "base_fire_damage": 25000.0,
+  "use_ranged_damage_attribute_for_fire_damage": true,
   "ranged_damage_attribute_namespace": "ranged_weapon",
   "ranged_damage_attribute_path": "damage",
   "ranged_damage_attribute_divisor": 1.5,
   "remove_regeneration_on_hit": false,
-  "apply_cursed_flame_effect": true,
+  "apply_cursed_flame_effect": false,
   "cursed_flame_duration_ticks": 200,
   "cursed_flame_amplifier": 0,
   "cursed_flame_show_particles": true,
@@ -35,5 +35,5 @@
   "block_hit_sound_volume": 1.0,
   "block_hit_sound_pitch": 1.0,
   "stop_trail_particles_after_block_hit": true,
-  "allow_pickup": true
+  "allow_pickup": false
 }

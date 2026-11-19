@@ -1,5 +1,5 @@
 {
-  "direct_hit_damage_override": 5.0,
+  "direct_hit_damage_override": 15.0,
   "start_hit_timer_on_entity_hit": true,
   "start_hit_timer_on_block_hit": true,
   "discard_after_hit_delay": true,
@@ -30,5 +30,5 @@
   "explosion_sound_enabled": true,
   "explosion_sound_volume": 1.0,
   "explosion_sound_pitch": 0.8,
-  "allow_pickup": true
+  "allow_pickup": false
 }

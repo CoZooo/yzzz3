@@ -34,6 +34,7 @@ import mods.jeitweaker.Jei;
 <item:aquamirae:frozen_key>.addTooltip("\u00A7c击杀科妮莉亚船长幽灵可获得");
 <item:aquamirae:frozen_key>.addTooltip("\u00A7e可在星河贸易站内交易获得深寒星尘等材料");
 <item:aquamirae:frozen_key>.addTooltip("\u00A76更多相关信息详见上层世界章节冻结的钥匙任务");
+<item:aquamirae:frozen_key>.addTooltip("\u00A73冻结的箱子也可通过滴水石锥制作生成");
 
 <item:aquamirae:sweet_lance>.anyDamage().addTooltip("\u00A7c新增击杀科妮莉亚船长幽灵额外有50%几率获得");
 <item:aquamirae:terrible_sword>.anyDamage().addTooltip("\u00A7c可制作获得");

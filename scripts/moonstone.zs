@@ -616,12 +616,6 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:soulcube>.anyDamage().addTooltip("\u00A7c只能通过击杀在下界生成的凋零牛几率获得");
 <item:moonstone:soulbattery>.anyDamage().addTooltip("\u00A7c只能通过击杀太古魔像几率获得，仅加成近战伤害");
 <item:moonstone:soulbattery>.anyDamage().addTooltip("\u00A7e打开物品栏后，左击拿起灵魂电池，接着右击装备在饰品栏的纳米饰品强化");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A75只能通过击杀钢铁守卫者几率获得");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A76混沌战斧的召唤有一定冷却时间");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤为全伤害加成");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c此饰品会导致卡顿！禁止佩戴");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A72可在切石机中转化为其他深渊遗物饰品");
-<item:moonstone:nightmare_axe>.setMaxStackSize(64);
 
 <item:moonstone:pain_ring>.anyDamage().addTooltip("\u00A7c只能通过击杀异端堕落先知几率获得");
 <item:moonstone:pain_ring>.anyDamage().addTooltip("\u00A76该饰品增加的伤害为全伤害加成");
@@ -635,12 +629,10 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:nightmare_heart>.anyDamage().addTooltip("\u00A7c只能通过击杀远古渊兽领主几率获得");
 
 <item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A76击杀渊兽领主有几率获得");
-//<item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A76击杀远古渊兽领主有几率获得");
-<item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7c需注意佩戴后所有负面效果时长为无限而非延长");
+<item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7e若负面效果过多可能会导致游戏崩溃");
 <item:moonstone:nightmaremoai>.anyDamage().addTooltip("\u00A76击杀渊兽领主有几率获得");
-<item:moonstone:nightmaremoai>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 
 <item:moonstone:magiceye>.anyDamage().addTooltip("\u00A7e击杀先驱者、异界电锯战姬、异界机械巨蛇有几率获得");
 <item:moonstone:magiceye>.anyDamage().addTooltip("\u00A7c附加伤害不属于玩家伤害，无法获得必需玩家击杀才能获得的物品和加成");
@@ -802,8 +794,6 @@ craftingTable.remove(<item:moonstone:rage_lock>);
 <tag:items:curios:badge>.add(<item:moonstone:undead_blood_charm>);
 <tag:items:curios:charm>.remove(<item:moonstone:rage_charm>);
 <tag:items:curios:badge>.add(<item:moonstone:rage_charm>);
-<tag:items:curios:hands>.remove(<item:moonstone:nightmare_axe>);
-//<tag:items:curios:nightmare_eye>.add(<item:moonstone:nightmare_axe>);
 
 //狂暴磁铁
 craftingTable.remove(<item:moonstone:rage_magnet>);
@@ -1135,9 +1125,19 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 craftingTable.addShapeless("moonstone.atp_height.copy", <item:moonstone:atp_height>, [<item:yuusha:grief_crystal>.reuse(), <item:born_in_chaos_v1:magical_holiday_candy>]);
 
 //
+<tag:items:curios:hands>.remove(<item:moonstone:nightmare_axe>);
+
+/*
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.2", <item:moonstone:nightmarestone>, <item:moonstone:nightmare_axe>);
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.3", <item:moonstone:nightmaremoai>, <item:moonstone:nightmare_axe>);
 
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A75只能通过击杀钢铁守卫者几率获得");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A76混沌战斧的召唤有一定冷却时间");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤为全伤害加成");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c此饰品会导致卡顿！禁止佩戴");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A72可在切石机中转化为其他深渊遗物饰品");
+<item:moonstone:nightmare_axe>.setMaxStackSize(64);
+*/
 
 
 

@@ -1,5 +1,5 @@
 {
-  "direct_hit_damage_override": 10.0,
+  "direct_hit_damage_override": 20.0,
   "water_inertia": 1.0,
   "in_water_damage_multiplier": 2.5,
   "underwater_trail_particles_enabled": true,
@@ -27,5 +27,5 @@
   "block_splash_sound_enabled": true,
   "block_splash_sound_volume": 1.0,
   "block_splash_sound_pitch": 1.0,
-  "allow_pickup": true
+  "allow_pickup": false
 }

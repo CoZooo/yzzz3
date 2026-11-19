@@ -94,16 +94,20 @@ import crafttweaker.api.block.Block;
 
 <item:lost_aether_content:platinum_key>.addTooltip("\u00A7c击杀帝王云鲸获得");
 <item:lost_aether_content:platinum_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:lost_aether_content:platinum_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether:silver_dungeon_key>.addTooltip("\u00A7c击杀武神女王获得");
 <item:aether:silver_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:aether:silver_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether:bronze_dungeon_key>.addTooltip("\u00A7c击杀滑行魔石获得");
 <item:aether:bronze_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:aether:bronze_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A7c击杀突变毒箭花获得");
 <item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7c只有在墨魂神殿区域击杀远古墨魂化身才可获得");
-<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A73在其它地方击杀远古墨魂化身也有几率获得");
+<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A72在其它地方击杀远古墨魂化身也有几率获得");
 <item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A76相关内容详见古遗天境章节");
-<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7e仅用作合成材料，无对应的宝箱开启");
+<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A7c需女武神镐及以上等级才可挖掘女武神金属矿石");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A76女武神金属矿石生成在古遗天境维度较低高度处");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A7e后续击杀腐化英雄也可获得粗瓦尔基里矿");
@@ -299,7 +303,12 @@ craftingTable.remove(<item:aether_redux:sentry_ring>);
 craftingTable.addShapeless("aether_redux.veridium_nugget.copy", <item:aether_redux:veridium_nugget>*3, [<item:aether_redux:veridium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("aether_redux.sentrite_chunk.copy", <item:aether_redux:sentrite_chunk>*3, [<item:aether_redux:refined_sentrite_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 
-
+//
+stoneCutter.addRecipe("aether.bronze_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/bronze/bronze_dungeon_reward"}}), <item:aether:bronze_dungeon_key>);
+stoneCutter.addRecipe("aether.silver_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/silver/silver_dungeon_reward"}}), <item:aether:silver_dungeon_key>);
+stoneCutter.addRecipe("ancient_aether.sentry_laboratory_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"ancient_aether:chests/dungeon/laboratory/sentry_laboratory_reward"}}), <item:ancient_aether:laboratory_dungeon_key>);
+stoneCutter.addRecipe("lost_aether_content.platinum_treasure_loot", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"lost_aether_content:chests/platinum_treasure_loot"}}), <item:lost_aether_content:platinum_key>);
+stoneCutter.addRecipe("aether.gold_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/gold/gold_dungeon_reward"}}), <item:ancient_aether:ancient_dungeon_key>);
 
 
 

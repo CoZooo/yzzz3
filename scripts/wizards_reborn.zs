@@ -2,7 +2,7 @@
 <item:fluffy_fur:silly_treat>.addTooltip("\u00A7c手持愚者之宴右击女神雕像可将天气变为晴天");
 <item:fluffy_fur:silly_treat>.addTooltip("\u00A76食用后玩家会有特殊的换装效果");
 
-<item:wizards_reborn:arcane_wood_bow>.anyDamage().addTooltip("\u00A7e悬赏板的制箭悬赏有几率获得");
+<item:wizards_reborn:arcane_wood_bow>.anyDamage().addTooltip("\u00A76开启灾厄教父等生物掉落的宝藏袋几率获得");
 
 <item:wizards_reborn:arcane_workbench>.addTooltip("\u00A7e详见咒法章节任务");
 <item:wizards_reborn:arcanum_ore>.addTooltip("\u00A76在主世界地下可找到");
@@ -151,6 +151,9 @@ craftingTable.addShapeless("wizards_reborn.arcane_gold_nugget.copy", <item:wizar
 craftingTable.addShapeless("wizards_reborn.sarcon_nugget.copy", <item:wizards_reborn:sarcon_nugget>*3, [<item:wizards_reborn:sarcon_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("wizards_reborn.vilenium_nugget.copy", <item:wizards_reborn:vilenium_nugget>*3, [<item:wizards_reborn:vilenium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("wizards_reborn.arcacite.copy", <item:wizards_reborn:arcacite>*4, [<item:wizards_reborn:arcacite>, <item:wizards_reborn:precision_crystal>]);
+
+//
+craftingTable.remove(<item:wizards_reborn:arcane_wood_bow>);
 
 //神秘金盔甲
 craftingTable.remove(<item:wizards_reborn:arcane_gold_helmet>);

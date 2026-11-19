@@ -79,6 +79,7 @@
 <item:yuusha:ectoplasm_string>.addTooltip("\u00A76可制作获得，相关内容详见咒法章节任务");
 <item:yuusha:ectoplasm_string>.addTooltip("\u00A7c后续击杀在幽匿暗域维度的幽匿蜘蛛也可获得");
 <item:yuusha:cursed_star>.addTooltip("\u00A76可制作获得，相关内容详见咒法章节任务");
+<item:yuusha:cursed_star>.addTooltip("\u00A7e新增击杀凋灵有几率获得");
 <item:yuusha:dragon_soul>.addTooltip("\u00A7c击杀末影龙必定获得");
 <item:yuusha:dragon_soul>.addTooltip("\u00A76相关内容详见末路之地章节任务");
 <item:yuusha:dragon_soul>.addTooltip("\u00A7e可用来在礼装章节兑换一个配饰栏位");

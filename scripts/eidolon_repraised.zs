@@ -1,3 +1,8 @@
+import mods.jeitweaker.Jei;
+
+//
+Jei.hideIngredient(<item:hmag:crimson_bow>);
+
 //说明
 <item:eidolon:raw_lead>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
 <item:eidolon:raw_silver>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");

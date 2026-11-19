@@ -1,3 +1,5 @@
+import mods.jeitweaker.Jei;
+
 //说明
 <item:callfromthedepth_:rottencameli>.addTooltip("\u00A76新增击杀腐猎兽和腐噬兽有几率获得");
 <item:callfromthedepth_:depth>.addTooltip("\u00A76可用赫菲斯托斯锻造或炼金术制作获得");
@@ -41,6 +43,9 @@
 <item:callfromthedepth_:soulingot>.addTooltip("\u00A7c用冥魂锭对着炼狱锻炉中心Shift右击几率回收为幽匿城堡守卫者刷怪蛋");
 <item:callfromthedepth_:citadelguardian_spawn_egg>.addTooltip("\u00A7c用冥魂锭对着炼狱锻炉中心Shift右击几率回收为幽匿城堡守卫者刷怪蛋");
 <item:callfromthedepth_:corruptedstone>.addTooltip("\u00A7c请勿采掘，无法获得掉落物，且无法放下");
+
+//
+Jei.hideIngredient(<item:callfromthedepth_:soulbow>);
 
 //幽匿之心
 craftingTable.remove(<item:callfromthedepth_:sculkhearth>);

@@ -1,5 +1,5 @@
 {
-  "direct_hit_damage": 6.5,
+  "direct_hit_damage": 40,
   "max_lifetime_ticks": 100,
   "trail_particles_enabled": true,
   "trail_particle_lifespan_ticks": 40,
@@ -10,8 +10,8 @@
   "impact_particle_count": 20,
   "impact_particle_spread": 1.5,
   "splash_damage_enabled": true,
-  "splash_radius": 2.0,
-  "splash_damage_base": 4.0,
+  "splash_radius": 4.0,
+  "splash_damage_base": 1000.0,
   "use_ranged_damage_attribute_for_splash_damage": true,
   "ranged_damage_attribute_namespace": "ranged_weapon",
   "ranged_damage_attribute_path": "damage",
@@ -20,9 +20,9 @@
   "damage_cloud_enabled": true,
   "cloud_duration_ticks": 100,
   "cloud_wait_time_ticks": 10,
-  "cloud_radius": 3.0,
+  "cloud_radius": 4.0,
   "cloud_radius_per_tick": -0.05,
-  "cloud_instant_damage_amplifier": 1,
+  "cloud_instant_damage_amplifier": 7,
   "discard_after_entity_hit": true,
-  "allow_pickup": true
+  "allow_pickup": false
 }

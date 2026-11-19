@@ -133,7 +133,11 @@
 		}
 		{
 			dependencies: ["7839FE7663B8C86B"]
-			description: ["可用贤者之石制作。"]
+			description: [
+				"可用贤者之石制作。"
+				""
+				"&6如果选择钓鱼开局，各种树苗可通过开启盒子等获得。"
+			]
 			id: "26DDAA6AC40CFB44"
 			rewards: [{
 				id: "73C537C1CD7D4D8F"
@@ -319,7 +323,11 @@
 		}
 		{
 			dependencies: ["7839FE7663B8C86B"]
-			description: ["可用营火制作。"]
+			description: [
+				"可用营火制作。"
+				""
+				"&6如果选择钓鱼开局，获得的罐头、锡罐可烧制为粗铁。"
+			]
 			id: "0E7AE55B297125D0"
 			rewards: [{
 				id: "2A85EE535C787867"
@@ -335,7 +343,7 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["70941F0500CCF3D1"]
+			dependencies: ["32DD82A564D9462C"]
 			description: ["可用营火制作。"]
 			id: "182B86860510371E"
 			rewards: [{
@@ -2098,11 +2106,13 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0E9613E5309174CC"]
+			dependencies: ["7E7C893A09CC5CDB"]
 			description: [
 				"可将其转化为海洋祭坛、紫水晶祭坛、深渊祭坛。"
 				""
 				"&e建议尽早准备。"
+				""
+				"&6粗奥术金可通过余烬晶体采矿机获得。"
 			]
 			id: "7110CDF77E6CD905"
 			rewards: [{
@@ -2115,8 +2125,8 @@
 				item: "wizards_reborn:wissen_altar"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.0d
+			x: 21.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["102266EEA025D868"]

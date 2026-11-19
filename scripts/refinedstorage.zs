@@ -112,7 +112,6 @@ craftingTable.remove(<item:rs_integration:rs_refill_upgrade>);
 craftingTable.addShapeless("rs_integration.rs_refill_upgrade", <item:rs_integration:rs_refill_upgrade>, [<item:sophisticatedbackpacks:advanced_refill_upgrade>, <item:aquamirae:abyssal_amethyst>]);
 
 craftingTable.remove(<item:rs_integration:rs_feeding_upgrade>);
-craftingTable.addShapeless("rs_integration.rs_feeding_upgrade", <item:rs_integration:rs_feeding_upgrade>, [<item:sophisticatedbackpacks:advanced_feeding_upgrade>, <item:aquamirae:abyssal_amethyst>]);
 
 //外壳
 craftingTable.remove(<item:refinedstorage:machine_casing>);

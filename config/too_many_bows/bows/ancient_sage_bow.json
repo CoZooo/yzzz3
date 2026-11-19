@@ -1,7 +1,7 @@
 {
-  "direct_hit_damage_override": 10.5,
+  "direct_hit_damage_override": 25.0,
   "bonus_penetration_damage_enabled": true,
-  "default_armor_penetration_factor": 0.67,
+  "default_armor_penetration_factor": 0.5,
   "use_ranged_damage_attribute_for_penetration": true,
   "ranged_damage_attribute_namespace": "ranged_weapon",
   "ranged_damage_attribute_path": "damage",
@@ -23,5 +23,5 @@
   "hit_particle_offset_z": 0.25,
   "hit_particle_speed": 0.1,
   "discard_after_entity_hit": true,
-  "allow_pickup": true
+  "allow_pickup": false
 }

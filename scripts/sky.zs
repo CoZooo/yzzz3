@@ -22,12 +22,16 @@ craftingTable.addShapeless("celestial_core.earth_core.sky.2", <item:celestial_co
 craftingTable.addShapeless("nethersdelight.propelplant_cane.sky", <item:nethersdelight:propelplant_cane>, [<item:nethersdelight:propelpearl>, <item:goety:philosophers_stone>.reuse()]);
 craftingTable.addShapeless("malum.natural_quartz.sky", <item:malum:natural_quartz>, [<item:minecraft:quartz>, <item:goety:philosophers_stone>.reuse()]);
 craftingTable.addShapeless("aether.quicksoil.sky", <item:aether:quicksoil>, [<item:minecraft:sand>, <item:goety:philosophers_stone>.reuse()]);
+craftingTable.addShapeless("aquaculture.box.sky.1", <item:aquaculture:box>, [<item:majruszsaccessories:angler_trophy>.anyDamage(), <item:goety:philosophers_stone>.reuse()]);
+craftingTable.addShapeless("aquaculture.box.sky.2", <item:aquaculture:box>, [<item:majruszsaccessories:unbreakable_fishing_line>.anyDamage(), <item:goety:philosophers_stone>.reuse()]);
 
 //
 craftingTable.removeByName("goety:psgold");
 
 //营火
-campfire.addRecipe("minecraft.raw_iron.sky", <item:minecraft:raw_iron>, <item:irons_spellbooks:blood_vial>, 2.0, 200);
+campfire.addRecipe("minecraft.raw_iron.sky", <item:minecraft:raw_iron>, <item:irons_spellbooks:blood_vial>, 2.0, 600);
+campfire.addRecipe("minecraft.raw_iron.sky.1", <item:minecraft:raw_iron>, <item:crabbersdelight:can>, 2.0, 600);
+campfire.addRecipe("minecraft.raw_iron.sky.2", <item:minecraft:raw_iron>, <item:aquaculture:tin_can>, 2.0, 600);
 
 //滴水石锥
 recipes.addJsonRecipe("minecraft.sand.sky",{ 
@@ -149,6 +153,12 @@ recipes.addJsonRecipe("minecraft.sculk_shrieker.sky",{
     source_block: "callfromthedepth_:poisonwater",
     target_block: "minecraft:sculk",
     post:  {  type: "execute",  command: "setblock ~ ~ ~ sculk_shrieker[can_summon=true]"}
+});
+recipes.addJsonRecipe("aquamirae.frozen_chest.sky",{ 
+    type: "lychee:dripstone_dripping",
+    source_block: "minecraft:powder_snow",
+    target_block: "minecraft:chest",
+    post:  {  type: "place",  block: "aquamirae:frozen_chest"}
 });
 
 //爆炸转换方块

@@ -1,14 +1,18 @@
 {
-  "direct_hit_damage_override": 8.0,
+  "direct_hit_damage_override": 15.0,
   "bonus_damage_vs_raid_mobs_enabled": true,
   "raid_mob_damage_multiplier": 5.0,
   "raid_mob_whitelist": [
-    "minecraft:pillager",
-    "minecraft:vindicator",
-    "minecraft:evoker",
-    "minecraft:ravager",
-    "minecraft:illusioner",
-    "minecraft:witch"
+    "mutantmonsters:mutant_zombie",
+    "mutantmonsters:mutant_creeper",
+    "mutantmonsters:mutant_skeleton",
+    "mutantmonsters:mutant_enderman",
+    "faded_conquest_2:the_plauge_bringer",
+    "faded_conquest_2:the_plauge_bringerp_2",
+    "goety:minister",
+    "meetyourfight:swampjaw",
+    "bosses_of_mass_destruction:lich",
+    "minecraft:wither"
   ],
   "impact_sound_enabled": true,
   "impact_sound_volume": 0.7,
@@ -16,5 +20,5 @@
   "impact_particles_enabled": true,
   "impact_particle_count": 10,
   "impact_particle_offset_scale": 0.2,
-  "allow_pickup": true
+  "allow_pickup": false
 }

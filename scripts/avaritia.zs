@@ -50,7 +50,7 @@ craftingTable.addShapeless("avaritia.infinity_ingot.copy", <item:avaritia:infini
 
 <item:avaritia:infinity_bow>.anyDamage().addTooltip("\u00A7e按住Shift+右击可切换至强力的追踪攻击模式，该模式下物品栏内不能有特殊箭类");
 <item:avaritia:infinity_bow>.anyDamage().addTooltip("\u00A76追踪攻击模式所释放的箭雨自带追踪，且具有极高的固定伤害，还享受各种伤害加成");
-<item:avaritia:infinity_bow>.anyDamage().addTooltip("\u00A7c可通过制作获得，还可用神化模组强化");
+<item:avaritia:infinity_bow>.anyDamage().addTooltip("\u00A7c可通过制作获得，还可用神化模组强化，净化粉末合成可清除异常标签");
 <item:avaritia:infinity_bow>.anyDamage().addTooltip("\u00A73此武器的追踪弹射物，可能会导致下界亚波伦疯狂瞬移");
 <item:avaritia:skull_fire_sword>.anyDamage().addTooltip("\u00A7e可在锻造台中制作获得");
 

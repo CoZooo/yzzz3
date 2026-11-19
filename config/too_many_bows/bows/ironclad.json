@@ -6,5 +6,5 @@
   "vacuum_pull_strength": 0.2,
   "vacuum_affects_owner": false,
   "vacuum_affects_only_living_entities": true,
-  "allow_pickup": true
+  "allow_pickup": false
 }

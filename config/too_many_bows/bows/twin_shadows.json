@@ -1,6 +1,6 @@
 {
-  "light_arrow_base_damage": 9.0,
-  "dark_arrow_base_damage": 13.5,
+  "light_arrow_base_damage": 20.0,
+  "dark_arrow_base_damage": 20.0,
   "use_ranged_damage_attribute": false,
   "light_arrow_ranged_damage_divisor": 3.0,
   "dark_arrow_ranged_damage_divisor": 2.0,

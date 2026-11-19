@@ -6,9 +6,14 @@
 	"moonstone:fermentation",
 	"malum_trinkets:spirit_conductor",
 	"malstone:condenser",
+	"artifacts:cloud_in_a_bottle",
+	"aether:valkyrie_cape",
+	"moonstone:ectoplasmsoul",
+	"grimoireofgaia:ring_of_jump",
 	"nameless_trinkets:broken_magnet",
 	"nameless_trinkets:experience_magnet",
 	"nameless_trinkets:super_magnet",
+	"goety_revelation:halo_of_the_end",
 	"moonstone:raw",
 	"moonstone:beacon",
 	"better_beacon:better_beacon_sss",
@@ -500,6 +505,30 @@
         "operation": "addition"
       },
       {
+        "id": "minecraft:generic.armor",
+        "label": "护甲",
+        "base_percent": 0.0,
+        "per_wrath_percent": 5.0,
+        "max_percent": 500,
+        "operation": "multiply_base"
+      },
+      {
+        "id": "minecraft:generic.armor_toughness",
+        "label": "盔甲韧性",
+        "base_percent": 0.0,
+        "per_wrath_percent": 1.0,
+        "max_percent": 200,
+        "operation": "multiply_base"
+      },
+      {
+        "id": "minecraft:generic.knockback_resistance",
+        "label": "击退抗性",
+        "base_value": 0.0,
+        "per_wrath_value": 0.05,
+        "max_value": 2,
+        "operation": "addition"
+      },
+      {
         "id": "attributeslib:healing_received",
         "label": "受到治疗",
         "base_value": 0.0,
@@ -538,30 +567,6 @@
         "per_wrath_percent": 2.0,
         "max_percent": 400,
         "operation": "multiply_base"
-      },
-      {
-        "id": "minecraft:generic.armor",
-        "label": "护甲",
-        "base_percent": 0.0,
-        "per_wrath_percent": 5.0,
-        "max_percent": 500,
-        "operation": "multiply_base"
-      },
-      {
-        "id": "minecraft:generic.armor_toughness",
-        "label": "盔甲韧性",
-        "base_percent": 0.0,
-        "per_wrath_percent": 1.0,
-        "max_percent": 200,
-        "operation": "multiply_base"
-      },
-      {
-        "id": "minecraft:generic.knockback_resistance",
-        "label": "击退抗性",
-        "base_value": 0.0,
-        "per_wrath_value": 0.05,
-        "max_value": 2,
-        "operation": "addition"
       }
     ]
   }

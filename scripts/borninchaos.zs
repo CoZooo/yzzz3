@@ -161,7 +161,7 @@ Jei.hideIngredient(<item:born_in_chaos_v1:spiny_shell_armor_chestplate>);
 <tag:items:minecraft:flowers>.add(<item:born_in_chaos_v1:marigolds>);
 
 //汉化
-<item:born_in_chaos_v1:darkwarblade>.anyDamage().addTooltip("\u00A7c只能移除目标的『生命恢复』效果");
+<item:born_in_chaos_v1:darkwarblade>.anyDamage().addTooltip("\u00A7c只能移除目标的「生命恢复」效果");
 
 <item:born_in_chaos_v1:sea_terror_eye>.addTooltip("\u00A7e可在星河贸易站内交易获得");
 

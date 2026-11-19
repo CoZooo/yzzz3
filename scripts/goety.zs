@@ -190,7 +190,7 @@ import mods.jeitweaker.Jei;
 <item:goety:redstone_monstrosity_head>.addTooltip("\u00A7c新增击杀异化红石巨兽必定获得");
 <item:goety:grave_golem_skull>.addTooltip("\u00A7c击杀天空之城的墓灵巨像有几率获得");
 <item:goety:grave_golem_skull>.addTooltip("\u00A76详见遥远世界章节");
-<item:goety:treasure_pouch>.addTooltip("\u00A7c新增击杀部分魔法生物也可获得");
+<item:goety:treasure_pouch>.addTooltip("\u00A76击杀灾厄教父等生物可获得");
 <item:goety:withered_manuscript>.addTooltip("\u00A7c只有击杀咒怨凋零死灵巫妖获得");
 <item:goety:withered_manuscript>.addTooltip("\u00A76相关内容详见天顶巨兽章节任务");
 <item:goety:blazing_horn>.addTooltip("\u00A76用来召唤咒怨凋零死灵巫妖");

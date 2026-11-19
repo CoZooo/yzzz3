@@ -1530,8 +1530,8 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["6B60D4C76D6FCE26"]
-			description: ["该进度需收集除了黄昏死神、死灵烈焰弓以外的所有琳琅满弓模组的弓。"]
+			dependencies: ["4171303FD88BB95C"]
+			description: ["该进度需收集除了所有琳琅满弓模组的弓。"]
 			id: "4DC7DC3A44E968A1"
 			rewards: [{
 				id: "012420CC173DC088"

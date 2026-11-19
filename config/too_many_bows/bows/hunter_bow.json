@@ -1,5 +1,5 @@
 {
-  "direct_hit_damage_override": -1.0,
+  "direct_hit_damage_override": 5.0,
   "require_player_owner": true,
   "require_target_dead_or_dying": true,
   "use_cooked_drops_if_target_on_fire": true,
@@ -28,5 +28,5 @@
   "rabbit_hide_min": 0,
   "rabbit_hide_max": 1,
   "rabbit_foot_chance": 0.1,
-  "allow_pickup": true
+  "allow_pickup": false
 }

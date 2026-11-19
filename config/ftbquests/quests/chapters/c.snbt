@@ -246,6 +246,8 @@
 				"&c诅咒附魔：永恒绑定诅咒、悲恸诅咒、绑定诅咒、消失诅咒、狂怒、滑手诅咒、吸血鬼诅咒、锈蚀诅咒、矛盾诅咒、易损诅咒、疲劳诅咒、生命修补"
 				""
 				"&e新增灵质球、亚麻布、记忆之书、灵质立方、魔法石英花、寰宇星蛆、金羊毛可制作多种辅助的星月附魔。"
+				""
+				"&2任意胶囊都可以在切石机中制作成钻石。"
 			]
 			id: "41264B48A1063918"
 			rewards: [{
@@ -3520,8 +3522,8 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["153558B7FF507A10"]
-			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			dependencies: ["41264B48A1063918"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3572,16 +3574,16 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«樱花蜂房»胶囊"
-			x: -11.5d
-			y: -7.5d
+			x: -7.0d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["41264B48A1063918"]
 			description: [
-				"该一次性胶囊仅提供一个好看的黑曜石平台，以供玩家将刷怪笼放置在灯笼位置。"
+				"不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"
 				""
-				"&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"
+				"&6该一次性胶囊仅提供一个好看的黑曜石平台，以供玩家将刷怪笼放置在灯笼位置。"
 			]
 			icon: {
 				Count: 1
@@ -3639,7 +3641,7 @@
 		{
 			can_repeat: true
 			dependencies: ["43ECCAB09CCC60C7"]
-			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3699,7 +3701,7 @@
 				"165C66C236C896C6"
 				"67E1C9BD07A3C58E"
 			]
-			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3801,7 +3803,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21C11696FFAB1967"]
-			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3874,6 +3876,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4CAFB7EE12D45DBA"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3929,8 +3932,8 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["035C4C2172727AA8"]
-			description: ["任意胶囊都可以在切石机中制作成钻石。"]
+			dependencies: ["153558B7FF507A10"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -3981,12 +3984,13 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«水上小屋»胶囊"
-			x: -16.0d
+			x: -11.5d
 			y: -7.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["479232119C07EDDE"]
+			dependencies: ["153558B7FF507A10"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4037,12 +4041,13 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«雪中小屋»胶囊"
-			x: -13.0d
-			y: -7.5d
+			x: -11.5d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["37FB78A6A9130C94"]
+			dependencies: ["3AE222F25C500418"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4093,12 +4098,13 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«原木橱窗»胶囊"
-			x: -14.5d
+			x: -8.5d
 			y: -7.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["3AE222F25C500418"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4158,11 +4164,12 @@
 			]
 			title: "兑换 一次性«附魔坛»胶囊"
 			x: -8.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["5EB8C2CECAAE6FCA"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4228,6 +4235,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4BA58FB23CD68C98"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4337,7 +4345,8 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["37FB78A6A9130C94"]
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4388,7 +4397,7 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«女仆祭坛»胶囊"
-			x: -14.5d
+			x: -10.0d
 			y: -9.0d
 		}
 		{
@@ -4542,7 +4551,7 @@
 			]
 			title: "转转回收"
 			x: -13.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			can_repeat: true

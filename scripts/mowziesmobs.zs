@@ -29,6 +29,7 @@ import mods.jeitweaker.Jei;
 <item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能、投射物等加成");
 <item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7e兼容利箭附魔，不兼容力量附魔");
 <item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7c请勿上穿透引弓附魔！否则会导致游戏崩溃");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A72无限附魔即可无限发射，物品栏内无需吹镖");
 <item:mowziesmobs:sculptor_staff>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
 
 <item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A7e右击使用不再会消耗");
@@ -80,7 +81,9 @@ stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.3", <item:treasurebags:tr
 stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.4", <item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/nature", BagType: "treasurebags:nature"}}), <item:mowziesmobs:geomancer_belt>);
 stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.5", <item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/nature", BagType: "treasurebags:nature"}}), <item:mowziesmobs:geomancer_sandals>);
 
-
+//吹筒
+craftingTable.remove(<item:mowziesmobs:blowgun>);
+craftingTable.addShaped("mowziesmobs.blowgun", <item:mowziesmobs:blowgun>, [[<item:locusazzurro_icaruswings:linen_string>, <item:minecraft:bamboo>, <item:locusazzurro_icaruswings:linen_string>], [<item:too_many_bows:power_crystal>, <item:minecraft:bamboo>, <item:too_many_bows:power_crystal>], [<item:locusazzurro_icaruswings:linen_string>, <item:minecraft:bamboo> , <item:locusazzurro_icaruswings:linen_string>]]);
 
 
 

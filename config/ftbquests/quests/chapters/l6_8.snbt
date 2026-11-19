@@ -1700,6 +1700,7 @@
 		{
 			can_repeat: true
 			dependencies: ["1815728008A7A3E0"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
